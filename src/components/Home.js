@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Data from "../data"
+import Data from "../data";
 
 export default function Home() {
   return (
@@ -1008,17 +1008,6 @@ export default function Home() {
 
                         <p class="menu-title">Clothes</p>
                       </div>
-
-                      <div>
-                        <ion-icon
-                          name="add-outline"
-                          class="add-icon"
-                        ></ion-icon>
-                        <ion-icon
-                          name="remove-outline"
-                          class="remove-icon"
-                        ></ion-icon>
-                      </div>
                     </button>
 
                     <ul class="sidebar-submenu-category-list" data-accordion>
@@ -1088,17 +1077,6 @@ export default function Home() {
                         />
 
                         <p class="menu-title">Footwear</p>
-                      </div>
-
-                      <div>
-                        <ion-icon
-                          name="add-outline"
-                          class="add-icon"
-                        ></ion-icon>
-                        <ion-icon
-                          name="remove-outline"
-                          class="remove-icon"
-                        ></ion-icon>
                       </div>
                     </button>
 
@@ -1170,17 +1148,6 @@ export default function Home() {
 
                         <p class="menu-title">Jewelry</p>
                       </div>
-
-                      <div>
-                        <ion-icon
-                          name="add-outline"
-                          class="add-icon"
-                        ></ion-icon>
-                        <ion-icon
-                          name="remove-outline"
-                          class="remove-icon"
-                        ></ion-icon>
-                      </div>
                     </button>
 
                     <ul class="sidebar-submenu-category-list" data-accordion>
@@ -1237,17 +1204,6 @@ export default function Home() {
                         />
 
                         <p class="menu-title">Perfume</p>
-                      </div>
-
-                      <div>
-                        <ion-icon
-                          name="add-outline"
-                          class="add-icon"
-                        ></ion-icon>
-                        <ion-icon
-                          name="remove-outline"
-                          class="remove-icon"
-                        ></ion-icon>
                       </div>
                     </button>
 
@@ -1319,17 +1275,6 @@ export default function Home() {
 
                         <p class="menu-title">Cosmetics</p>
                       </div>
-
-                      <div>
-                        <ion-icon
-                          name="add-outline"
-                          class="add-icon"
-                        ></ion-icon>
-                        <ion-icon
-                          name="remove-outline"
-                          class="remove-icon"
-                        ></ion-icon>
-                      </div>
                     </button>
 
                     <ul class="sidebar-submenu-category-list" data-accordion>
@@ -1400,17 +1345,6 @@ export default function Home() {
 
                         <p class="menu-title">Glasses</p>
                       </div>
-
-                      <div>
-                        <ion-icon
-                          name="add-outline"
-                          class="add-icon"
-                        ></ion-icon>
-                        <ion-icon
-                          name="remove-outline"
-                          class="remove-icon"
-                        ></ion-icon>
-                      </div>
                     </button>
 
                     <ul class="sidebar-submenu-category-list" data-accordion>
@@ -1454,17 +1388,6 @@ export default function Home() {
                         />
 
                         <p class="menu-title">Bags</p>
-                      </div>
-
-                      <div>
-                        <ion-icon
-                          name="add-outline"
-                          class="add-icon"
-                        ></ion-icon>
-                        <ion-icon
-                          name="remove-outline"
-                          class="remove-icon"
-                        ></ion-icon>
                       </div>
                     </button>
 
@@ -2040,76 +1963,72 @@ export default function Home() {
                 <h2 class="title">Our Products</h2>
 
                 <div class="product-grid">
+                  {Data.map((product) => {
+                    return (
+                      <div class="showcase">
+                        <div class="showcase-banner">
+                          <img
+                            src={product.img}
+                            alt={product.title}
+                            class="product-img default"
+                            width="300"
+                          />
+                          <img
+                            src="assets/products/shoe-2_1.jpg"
+                            alt={product.title}
+                            class="product-img hover"
+                            width="300"
+                          />
+                          {/* <p class="showcase-badge">15%</p> */}
+                          {/* <p class="showcase-badge angle black">sale</p> */}
+                          {/* <p class="showcase-badge angle pink">new</p> */}
 
-                  {
-                    Data.map((product)=>{
-                      return(
-                        <div class="showcase">
-                    <div class="showcase-banner">
-                      <img
-                        src={product.img}  
-                        alt={product.title}
-                        class="product-img default"
-                        width="300"
-                      />
-                      <img
-                        src="assets/products/shoe-2_1.jpg"
-                        alt={product.title}
-                        class="product-img hover"
-                        width="300"
-                      />
-                      {/* <p class="showcase-badge">15%</p> */}
-                      {/* <p class="showcase-badge angle black">sale</p> */}
-                      {/* <p class="showcase-badge angle pink">new</p> */}
+                          <div class="showcase-actions">
+                            <button class="btn-action">
+                              <ion-icon name="heart-outline"></ion-icon>
+                            </button>
 
-                      <div class="showcase-actions">
-                        <button class="btn-action">
-                          <ion-icon name="heart-outline"></ion-icon>
-                        </button>
+                            <button class="btn-action">
+                              <ion-icon name="eye-outline"></ion-icon>
+                            </button>
 
-                        <button class="btn-action">
-                          <ion-icon name="eye-outline"></ion-icon>
-                        </button>
+                            <button class="btn-action">
+                              <ion-icon name="repeat-outline"></ion-icon>
+                            </button>
 
-                        <button class="btn-action">
-                          <ion-icon name="repeat-outline"></ion-icon>
-                        </button>
+                            <button class="btn-action">
+                              <ion-icon name="bag-add-outline"></ion-icon>
+                            </button>
+                          </div>
+                        </div>
 
-                        <button class="btn-action">
-                          <ion-icon name="bag-add-outline"></ion-icon>
-                        </button>
+                        <div class="showcase-content">
+                          <a href="/" class="showcase-category">
+                            {product.title}
+                          </a>
+
+                          <h3>
+                            <a href="/" class="showcase-title">
+                              {product.description}
+                            </a>
+                          </h3>
+
+                          <div class="showcase-rating">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                          </div>
+
+                          <div class="price-box">
+                            <p class="price">₹{product.price}</p>
+                            <del>₹{product.price+200}</del>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-
-                    <div class="showcase-content">
-                      <a href="/" class="showcase-category">
-                        {product.title}
-                      </a>
-
-                      <h3>
-                        <a href="/" class="showcase-title">
-                        {product.description}
-                        </a>
-                      </h3>
-
-                      <div class="showcase-rating">
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                      </div>
-
-                      <div class="price-box">
-                        <p class="price">$99.00</p>
-                        <del>$105.00</del>
-                      </div>
-                    </div>
-                  </div>
-                      )
-                    })
-                  }
-
+                    );
+                  })}
                 </div>
               </div>
             </div>
