@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
@@ -140,18 +141,19 @@ export default function Home() {
 
             <div class="header-user-actions">
 
-              <button class="action-btn">
+              {/* <button class="action-btn">
                 <ion-icon name="person-outline"></ion-icon>
               </button>
 
               <button class="action-btn">
                 <ion-icon name="heart-outline"></ion-icon>
                 <span class="count">0</span>
-              </button>
+              </button> */}
 
-              <button class="action-btn">
+              <button class="action-btn"><Link to="/Cart">
                 <ion-icon name="bag-handle-outline"></ion-icon>
                 <span class="count">0</span>
+                </Link>
               </button>
 
             </div>
@@ -768,7 +770,7 @@ export default function Home() {
 
         </div>
 
-        <div class="category">
+        {/* <div class="category">
 
           <div class="container">
 
@@ -938,7 +940,7 @@ export default function Home() {
 
           </div>
 
-        </div>
+        </div> */}
 
 
 
@@ -1654,7 +1656,6 @@ export default function Home() {
                   </div>
 
                 </div>
-
 
               </div>
 
@@ -2478,324 +2479,15 @@ export default function Home() {
                                   </div>
 
                                 </div>
-                                <div>
 
-                                  <div class="container">
 
-                                    <div class="testimonials-box">
-                                      <div class="testimonial">
 
-                                        <h2 class="title">testimonial</h2>
-
-                                        <div class="testimonial-card">
-
-                                          <img src="assets/testimonial-1.jpg" alt="alan doe" class="testimonial-banner" width="80" height="80"/>
-
-                                            <p class="testimonial-name">Alan Doe</p>
-
-                                            <p class="testimonial-title">CEO & Founder Invision</p>
-
-                                            <img src="assets/icons/quotes.svg" alt="quotation" class="quotation-img" width="26"/>
-
-                                              <p class="testimonial-desc">
-                                                Lorem ipsum dolor sit amet consectetur Lorem ipsum
-                                                dolor dolor sit amet.
-                                              </p>
-
-                                            </div>
-
-                                        </div>
-
-                                        <div class="cta-container">
-
-                                          <img src="assets/cta-banner.jpg" alt="summer collection" class="cta-banner"/>
-
-                                            <a href="/" class="cta-content">
-
-                                              <p class="discount">25% Discount</p>
-
-                                              <h2 class="cta-title">Summer collection</h2>
-
-                                              <p class="cta-text">Starting @ $10</p>
-
-                                              <button class="cta-btn">Shop now</button>
-
-                                            </a>
-
-                                        </div>
-                                        <div class="service">
-
-                                          <h2 class="title">Our Services</h2>
-
-                                          <div class="service-container">
-
-                                            <a href="/" class="service-item">
-
-                                              <div class="service-icon">
-                                                <ion-icon name="boat-outline"></ion-icon>
-                                              </div>
-
-                                              <div class="service-content">
-
-                                                <h3 class="service-title">Worldwide Delivery</h3>
-                                                <p class="service-desc">For Order Over $100</p>
-
-                                              </div>
-
-                                            </a>
-
-                                            <a href="/" class="service-item">
-
-                                              <div class="service-icon">
-                                                <ion-icon name="rocket-outline"></ion-icon>
-                                              </div>
-
-                                              <div class="service-content">
-
-                                                <h3 class="service-title">Next Day delivery</h3>
-                                                <p class="service-desc">UK Orders Only</p>
-
-                                              </div>
-
-                                            </a>
-
-                                            <a href="/" class="service-item">
-
-                                              <div class="service-icon">
-                                                <ion-icon name="call-outline"></ion-icon>
-                                              </div>
-
-                                              <div class="service-content">
-
-                                                <h3 class="service-title">Best Online Support</h3>
-                                                <p class="service-desc">Hours: 8AM - 11PM</p>
-
-                                              </div>
-
-                                            </a>
-
-                                            <a href="/" class="service-item">
-
-                                              <div class="service-icon">
-                                                <ion-icon name="arrow-undo-outline"></ion-icon>
-                                              </div>
-
-                                              <div class="service-content">
-
-                                                <h3 class="service-title">Return Policy</h3>
-                                                <p class="service-desc">Easy & Free Return</p>
-
-                                              </div>
-
-                                            </a>
-
-                                            <a href="/" class="service-item">
-
-                                              <div class="service-icon">
-                                                <ion-icon name="ticket-outline"></ion-icon>
-                                              </div>
-
-                                              <div class="service-content">
-
-                                                <h3 class="service-title">30% money back</h3>
-                                                <p class="service-desc">For Order Over $100</p>
-
-                                              </div>
-
-                                            </a>
-
-                                          </div>
-
-                                        </div>
-
-                                      </div>
-
-                                    </div>
-
-                                  </div>
-
-                                  <div class="blog">
-
-                                    <div class="container">
-
-                                      <div class="blog-container has-scrollbar">
-
-                                        <div class="blog-card">
-
-                                          <a href="/">
-                                            <img src="assets/blog-1.jpg" alt="Clothes Retail KPIs 2021 Guide for Clothes Executives" width="300" class="blog-banner"/>
-                                          </a>
-
-                                          <div class="blog-content">
-
-                                            <a href="/" class="blog-category">Fashion</a>
-
-                                            <a href="/">
-                                              <h3 class="blog-title">Clothes Retail KPIs 2021 Guide for Clothes Executives.</h3>
-                                            </a>
-
-                                            <p class="blog-meta">
-                                              By <cite>Mr Admin</cite> / <time datetime="2022-04-06">Apr 06, 2022</time>
-                                            </p>
-
-                                          </div>
-
-                                        </div>
-
-                                        <div class="blog-card">
-
-                                          <a href="/">
-                                            <img src="assets/blog-2.jpg" alt="Curbside fashion Trends: How to Win the Pickup Battle."
-                                              class="blog-banner" width="300"/>
-                                          </a>
-
-                                          <div class="blog-content">
-
-                                            <a href="/" class="blog-category">Clothes</a>
-
-                                            <h3>
-                                              <a href="/" class="blog-title">Curbside fashion Trends: How to Win the Pickup Battle.</a>
-                                            </h3>
-
-                                            <p class="blog-meta">
-                                              By <cite>Mr Robin</cite> / <time datetime="2022-01-18">Jan 18, 2022</time>
-                                            </p>
-
-                                          </div>
-
-                                        </div>
-
-                                        <div class="blog-card">
-
-                                          <a href="/">
-                                            <img src="assets/blog-3.jpg" alt="EBT vendors: Claim Your Share of SNAP Online Revenue."
-                                              class="blog-banner" width="300"/>
-                                          </a>
-
-                                          <div class="blog-content">
-
-                                            <a href="/" class="blog-category">Shoes</a>
-
-                                            <h3>
-                                              <a href="/" class="blog-title">EBT vendors: Claim Your Share of SNAP Online Revenue.</a>
-                                            </h3>
-
-                                            <p class="blog-meta">
-                                              By <cite>Mr Selsa</cite> / <time datetime="2022-02-10">Feb 10, 2022</time>
-                                            </p>
-
-                                          </div>
-
-                                        </div>
-
-                                        <div class="blog-card">
-
-                                          <a href="/">
-                                            <img src="assets/blog-4.jpg" alt="Curbside fashion Trends: How to Win the Pickup Battle."
-                                              class="blog-banner" width="300"/>
-                                          </a>
-
-                                          <div class="blog-content">
-
-                                            <a href="/" class="blog-category">Electronics</a>
-
-                                            <h3>
-                                              <a href="/" class="blog-title">Curbside fashion Trends: How to Win the Pickup Battle.</a>
-                                            </h3>
-
-                                            <p class="blog-meta">
-                                              By <cite>Mr Pawar</cite> / <time datetime="2022-03-15">Mar 15, 2022</time>
-                                            </p>
-
-                                          </div>
-
-                                        </div>
-
-                                      </div>
-
-                                    </div>
-
-                                  </div>
 
                                 </main>
 
                                 <footer>
 
-                                  <div class="footer-category">
 
-                                    <div class="container">
-
-                                      <h2 class="footer-category-title">Brand directory</h2>
-
-                                      <div class="footer-category-box">
-
-                                        <h3 class="category-box-title">Fashion :</h3>
-
-                                        <a href="/" class="footer-category-link">T-shirt</a>
-                                        <a href="/" class="footer-category-link">Shirts</a>
-                                        <a href="/" class="footer-category-link">shorts & jeans</a>
-                                        <a href="/" class="footer-category-link">jacket</a>
-                                        <a href="/" class="footer-category-link">dress & frock</a>
-                                        <a href="/" class="footer-category-link">innerwear</a>
-                                        <a href="/" class="footer-category-link">hosiery</a>
-
-                                      </div>
-
-                                      <div class="footer-category-box">
-                                        <h3 class="category-box-title">footwear :</h3>
-
-                                        <a href="/" class="footer-category-link">sport</a>
-                                        <a href="/" class="footer-category-link">formal</a>
-                                        <a href="/" class="footer-category-link">Boots</a>
-                                        <a href="/" class="footer-category-link">casual</a>
-                                        <a href="/" class="footer-category-link">cowboy shoes</a>
-                                        <a href="/" class="footer-category-link">safety shoes</a>
-                                        <a href="/" class="footer-category-link">Party wear shoes</a>
-                                        <a href="/" class="footer-category-link">Branded</a>
-                                        <a href="/" class="footer-category-link">Firstcopy</a>
-                                        <a href="/" class="footer-category-link">Long shoes</a>
-                                      </div>
-
-                                      <div class="footer-category-box">
-                                        <h3 class="category-box-title">jewellery :</h3>
-
-                                        <a href="/" class="footer-category-link">Necklace</a>
-                                        <a href="/" class="footer-category-link">Earrings</a>
-                                        <a href="/" class="footer-category-link">Couple rings</a>
-                                        <a href="/" class="footer-category-link">Pendants</a>
-                                        <a href="/" class="footer-category-link">Crystal</a>
-                                        <a href="/" class="footer-category-link">Bangles</a>
-                                        <a href="/" class="footer-category-link">bracelets</a>
-                                        <a href="/" class="footer-category-link">nosepin</a>
-                                        <a href="/" class="footer-category-link">chain</a>
-                                        <a href="/" class="footer-category-link">Earrings</a>
-                                        <a href="/" class="footer-category-link">Couple rings</a>
-                                      </div>
-
-                                      <div class="footer-category-box">
-                                        <h3 class="category-box-title">cosmetics :</h3>
-
-                                        <a href="/" class="footer-category-link">Shampoo</a>
-                                        <a href="/" class="footer-category-link">Bodywash</a>
-                                        <a href="/" class="footer-category-link">Facewash</a>
-                                        <a href="/" class="footer-category-link">makeup kit</a>
-                                        <a href="/" class="footer-category-link">liner</a>
-                                        <a href="/" class="footer-category-link">lipstick</a>
-                                        <a href="/" class="footer-category-link">prefume</a>
-                                        <a href="/" class="footer-category-link">Body soap</a>
-                                        <a href="/" class="footer-category-link">scrub</a>
-                                        <a href="/" class="footer-category-link">hair gel</a>
-                                        <a href="/" class="footer-category-link">hair colors</a>
-                                        <a href="/" class="footer-category-link">hair dye</a>
-                                        <a href="/" class="footer-category-link">sunscreen</a>
-                                        <a href="/" class="footer-category-link">skin loson</a>
-                                        <a href="/" class="footer-category-link">liner</a>
-                                        <a href="/" class="footer-category-link">lipstick</a>
-                                      </div>
-
-                                    </div>
-
-                                  </div>
 
                                   <div class="footer-nav">
 

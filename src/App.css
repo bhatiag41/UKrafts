@@ -23,9 +23,9 @@
   --spanish-gray: hsl(0, 0%, 60%);
   --sonic-silver: hsl(0, 0%, 47%);
   --eerie-black: hsl(0, 0%, 13%);
-  --salmon-pink: hsl(353, 100%, 78%);
+  --bittersweet: hsl(198, 82%, 60%);
   --sandy-brown: hsl(29, 90%, 65%);
-  --bittersweet: hsl(0, 100%, 70%);
+  --salmon-pink: hsl(201, 58%, 43%);
   --ocean-green: hsl(152, 51%, 52%);
   --davys-gray: hsl(0, 0%, 33%);
   --cultured: hsl(0, 0%, 93%);
@@ -83,7 +83,8 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none; }
+a,Link { text-decoration: none;
+color:var(--eerie-black); }
 
 li { list-style: none; }
 
@@ -2076,7 +2077,7 @@ footer {
     width: calc(50% - 10px);
   }
 
-  .product-minimal .showcase-container { min-width: 100%; }
+  .product-minimal .showcase-container { min-width: 49%; }
   
   .product-featured .showcase {
     display: flex;
