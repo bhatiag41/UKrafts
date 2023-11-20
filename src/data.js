@@ -1,25 +1,59 @@
-export default[
+export default [
     {
-        title:"Aipan",
-        Price:"250",
-        description:"Aipan is a traditional folk art form originating from the Kumaon region of Uttarakhand, India. This intricate and colorful art is often created on walls and floors, serving as a form of decoration during festivals, weddings, and other special occasions..",
-        img:"assets/Aipan.jpeg.jpeg"
-    },
-    //
-    //{
-      //  title:"Pahari Topi",
-        
-       //date:"3-october-2023 - 10-october-2023",
-        //description:"Ladakh is the highest plateau in India with most of it being over 3,000 m (9,800 ft). It extends from the Himalayan to the Kunlun Ranges",
-        //img:"https://assets.cntraveller.in/photos/60ba11f73ff1eb236f5a730c/16:9/w_1024%2Cc_limit/LadakhLead.jpg"
-    //},
-    //{
-      //  title:"Nara Park",
-        //loc:"Japan",
-        //gmap:"https://maps.app.goo.gl/AcpioSeSnnUNo6qr7",
-        //date:"10-september-2023 - 15-september-2023",
-        //description:"Nara Park is a public park located in the city of Nara, Japan, at the foot of Mount Wakakusa. Established in 1880, it is one of the oldest parks in Japan. Administratively, the park is under the control of Nara Prefecture.",
-        //img:"https://lp-cms-production.imgix.net/image_browser/shutterstockRF_168163925.jpg?auto=format&q=75"
-    //},
-
-]
+          title:"Aipan",
+          price:"250",
+          description:"Maa lakshmi aipan typically crafted on cloth by hand , cloth material cotton",
+          img:"assets/Aipan.jpeg.jpeg"
+      },
+      
+      {
+          title:"Pahari Topi",
+          price:"299" ,
+          description:"Unisex pahadi  Woolen Cap/Topi Coloured Patti Cap Traditional Handcrafted pahadi topi, cotton",
+          img:"assets/Pahadi topi.jpeg.jpg"
+      },
+      {
+          title:"Pichora",
+          price: "995",
+          description:"Women's chiffon kumaoni pichora Traditional Embroidered Dupatta Orange Color.",
+          img:"assets/Pichora.jpeg.jpg"
+      },
+      {
+          title:"Ranikhet woolens:Handspun",
+          price: "999",
+          description:"Hand Woven Traditional Handloom Wool Muffler For Unisex.",
+          img:"assets/Handloom.jpeg.jpg"
+      },
+      {
+          title:"Kumaoni pottery",
+          price: "5000",
+          description:"Vintage kumaoni Pottery  Pot  Folk Art, north Decor",
+          img:"assets/Pottery.jpeg.jpg"
+      },
+      {
+          title:"Garhwali Jewellery",
+          price: "499",
+          description:"Traditional Kumauni/Gharwali Kangan paunji ,gold plated",
+          img:"assets/Garwhali jewellery.jpg"
+  
+      },
+      {
+         title: "Cushion",
+         price: "659",
+         description: "Aipan printed  Cushion Covers , set of 4 16 * 16 inches",
+         img:""
+   
+      },
+      {
+          title: "Traditional Thaal",
+          price: "259",
+          description: "Hand Painted Decorative Pooja Thali | Decorative Fancy Thali | 14*14 inch Thali",
+          img:"assets/thaal.jpg"
+      },
+      {
+         title:"Traditional Choki",
+         price: "599",
+         description:"Aipan Art Wooden Pooja Chowki,17x 17 inches,wooden chauki",
+         img: "traditional choki.jpeg"
+      }
+  ]
