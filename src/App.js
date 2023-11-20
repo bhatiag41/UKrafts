@@ -1,7 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+
+
+
+
+
   return (
     <div className="App">
 
@@ -17,7 +22,7 @@ function App() {
           </button>
 
           <div class="newsletter-img">
-            <img src="./assets/images/newsletter.png" alt="subscribe newsletter" width="400" height="400">
+            <img src="assets/newsletter.png" alt="subscribe newsletter" width="400" height="400"/>
           </div>
 
           <div class="newsletter">
@@ -34,7 +39,7 @@ function App() {
 
               </div>
 
-              <input type="email" name="email" class="email-field" placeholder="Email Address" required>
+              <input type="email" name="email" class="email-field" placeholder="Email Address" required/>
 
                 <button type="submit" class="btn-newsletter">Subscribe</button>
 
@@ -54,7 +59,7 @@ function App() {
         </button>
 
         <div class="toast-banner">
-          <img src="./assets/images/products/jewellery-1.jpg" alt="Rose Gold Earrings" width="80" height="70">
+          <img src="assets/products/jewellery-1.jpg" alt="Rose Gold Earrings" width="80" height="70"/>
         </div>
 
         <div class="toast-detail">
@@ -84,25 +89,25 @@ function App() {
             <ul class="header-social-container">
 
               <li>
-                <a href="#" class="social-link">
+                <a href="/" class="social-link">
                   <ion-icon name="logo-facebook"></ion-icon>
                 </a>
               </li>
 
               <li>
-                <a href="#" class="social-link">
+                <a href="/" class="social-link">
                   <ion-icon name="logo-twitter"></ion-icon>
                 </a>
               </li>
 
               <li>
-                <a href="#" class="social-link">
+                <a href="/" class="social-link">
                   <ion-icon name="logo-instagram"></ion-icon>
                 </a>
               </li>
 
               <li>
-                <a href="#" class="social-link">
+                <a href="/" class="social-link">
                   <ion-icon name="logo-linkedin"></ion-icon>
                 </a>
               </li>
@@ -143,13 +148,13 @@ function App() {
 
           <div class="container">
 
-            <a href="#" class="header-logo">
-              <img src="./assets/images/logo/logo.svg" alt="Anon's logo" width="120" height="36">
+            <a href="/" class="header-logo">
+              <img src="assets/logo/logo.svg" alt="Anon's logo" width="120" height="36"/>
             </a>
 
             <div class="header-search-container">
 
-              <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+              <input type="search" name="search" class="search-field" placeholder="Enter your product name..."/>
 
                 <button class="search-btn">
                   <ion-icon name="search-outline"></ion-icon>
@@ -186,43 +191,43 @@ function App() {
             <ul class="desktop-menu-category-list">
 
               <li class="menu-category">
-                <a href="#" class="menu-title">Home</a>
+                <a href="/" class="menu-title">Home</a>
               </li>
 
               <li class="menu-category">
-                <a href="#" class="menu-title">Categories</a>
+                <a href="/" class="menu-title">Categories</a>
 
                 <div class="dropdown-panel">
 
                   <ul class="dropdown-panel-list">
 
                     <li class="menu-title">
-                      <a href="#">Electronics</a>
+                      <a href="/">Electronics</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">Desktop</a>
+                      <a href="/">Desktop</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">Laptop</a>
+                      <a href="/">Laptop</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">Camera</a>
+                      <a href="/">Camera</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">Tablet</a>
+                      <a href="/">Tablet</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">Headphone</a>
+                      <a href="/">Headphone</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">
-                        <img src="./assets/images/electronics-banner-1.jpg" alt="headphone collection" width="250"
+                      <a href="/">
+                        <img src="assets/electronics-banner-1.jpg" alt="headphone collection" width="250"
                           height="119"/>
                       </a>
                     </li>
@@ -232,32 +237,32 @@ function App() {
                   <ul class="dropdown-panel-list">
 
                     <li class="menu-title">
-                      <a href="#">Men's</a>
+                      <a href="/">Men's</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">Formal</a>
+                      <a href="/">Formal</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">Casual</a>
+                      <a href="/">Casual</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">Sports</a>
+                      <a href="/">Sports</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">Jacket</a>
+                      <a href="/">Jacket</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">Sunglasses</a>
+                      <a href="/">Sunglasses</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">
-                        <img src="./assets/images/mens-banner.jpg" alt="men's fashion" width="250" height="119">
+                      <a href="/">
+                        <img src="assets/mens-banner.jpg" alt="men's fashion" width="250" height="119"/>
                       </a>
                     </li>
 
@@ -266,32 +271,32 @@ function App() {
                   <ul class="dropdown-panel-list">
 
                     <li class="menu-title">
-                      <a href="#">Women's</a>
+                      <a href="/">Women's</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">Formal</a>
+                      <a href="/">Formal</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">Casual</a>
+                      <a href="/">Casual</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">Perfume</a>
+                      <a href="/">Perfume</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">Cosmetics</a>
+                      <a href="/">Cosmetics</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">Bags</a>
+                      <a href="/">Bags</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">
-                        <img src="./assets/images/womens-banner.jpg" alt="women's fashion" width="250" height="119">
+                      <a href="/">
+                        <img src="assets/womens-banner.jpg" alt="women's fashion" width="250" height="119"/>
                       </a>
                     </li>
 
@@ -300,32 +305,32 @@ function App() {
                   <ul class="dropdown-panel-list">
 
                     <li class="menu-title">
-                      <a href="#">Electronics</a>
+                      <a href="/">Electronics</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">Smart Watch</a>
+                      <a href="/">Smart Watch</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">Smart TV</a>
+                      <a href="/">Smart TV</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">Keyboard</a>
+                      <a href="/">Keyboard</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">Mouse</a>
+                      <a href="/">Mouse</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">Microphone</a>
+                      <a href="/">Microphone</a>
                     </li>
 
                     <li class="panel-list-item">
-                      <a href="#">
-                        <img src="./assets/images/electronics-banner-2.jpg" alt="mouse collection" width="250" height="119">
+                      <a href="/">
+                        <img src="assets/electronics-banner-2.jpg" alt="mouse collection" width="250" height="119"/>
                       </a>
                     </li>
 
@@ -335,107 +340,107 @@ function App() {
               </li>
 
               <li class="menu-category">
-                <a href="#" class="menu-title">Men's</a>
+                <a href="/" class="menu-title">Men's</a>
 
                 <ul class="dropdown-list">
 
                   <li class="dropdown-item">
-                    <a href="#">Shirt</a>
+                    <a href="/">Shirt</a>
                   </li>
 
                   <li class="dropdown-item">
-                    <a href="#">Shorts & Jeans</a>
+                    <a href="/">Shorts & Jeans</a>
                   </li>
 
                   <li class="dropdown-item">
-                    <a href="#">Safety Shoes</a>
+                    <a href="/">Safety Shoes</a>
                   </li>
 
                   <li class="dropdown-item">
-                    <a href="#">Wallet</a>
+                    <a href="/">Wallet</a>
                   </li>
 
                 </ul>
               </li>
 
               <li class="menu-category">
-                <a href="#" class="menu-title">Women's</a>
+                <a href="/" class="menu-title">Women's</a>
 
                 <ul class="dropdown-list">
 
                   <li class="dropdown-item">
-                    <a href="#">Dress & Frock</a>
+                    <a href="/">Dress & Frock</a>
                   </li>
 
                   <li class="dropdown-item">
-                    <a href="#">Earrings</a>
+                    <a href="/">Earrings</a>
                   </li>
 
                   <li class="dropdown-item">
-                    <a href="#">Necklace</a>
+                    <a href="/">Necklace</a>
                   </li>
 
                   <li class="dropdown-item">
-                    <a href="#">Makeup Kit</a>
+                    <a href="/">Makeup Kit</a>
                   </li>
 
                 </ul>
               </li>
 
               <li class="menu-category">
-                <a href="#" class="menu-title">Jewelry</a>
+                <a href="/" class="menu-title">Jewelry</a>
 
                 <ul class="dropdown-list">
 
                   <li class="dropdown-item">
-                    <a href="#">Earrings</a>
+                    <a href="/">Earrings</a>
                   </li>
 
                   <li class="dropdown-item">
-                    <a href="#">Couple Rings</a>
+                    <a href="/">Couple Rings</a>
                   </li>
 
                   <li class="dropdown-item">
-                    <a href="#">Necklace</a>
+                    <a href="/">Necklace</a>
                   </li>
 
                   <li class="dropdown-item">
-                    <a href="#">Bracelets</a>
+                    <a href="/">Bracelets</a>
                   </li>
 
                 </ul>
               </li>
 
               <li class="menu-category">
-                <a href="#" class="menu-title">Perfume</a>
+                <a href="/" class="menu-title">Perfume</a>
 
                 <ul class="dropdown-list">
 
                   <li class="dropdown-item">
-                    <a href="#">Clothes Perfume</a>
+                    <a href="/">Clothes Perfume</a>
                   </li>
 
                   <li class="dropdown-item">
-                    <a href="#">Deodorant</a>
+                    <a href="/">Deodorant</a>
                   </li>
 
                   <li class="dropdown-item">
-                    <a href="#">Flower Fragrance</a>
+                    <a href="/">Flower Fragrance</a>
                   </li>
 
                   <li class="dropdown-item">
-                    <a href="#">Air Freshener</a>
+                    <a href="/">Air Freshener</a>
                   </li>
 
                 </ul>
               </li>
 
               <li class="menu-category">
-                <a href="#" class="menu-title">Blog</a>
+                <a href="/" class="menu-title">Blog</a>
               </li>
 
               <li class="menu-category">
-                <a href="#" class="menu-title">Hot Offers</a>
+                <a href="/" class="menu-title">Hot Offers</a>
               </li>
 
             </ul>
@@ -485,7 +490,7 @@ function App() {
           <ul class="mobile-menu-category-list">
 
             <li class="menu-category">
-              <a href="#" class="menu-title">Home</a>
+              <a href="/" class="menu-title">Home</a>
             </li>
 
             <li class="menu-category">
@@ -502,19 +507,19 @@ function App() {
               <ul class="submenu-category-list" data-accordion>
 
                 <li class="submenu-category">
-                  <a href="#" class="submenu-title">Shirt</a>
+                  <a href="/" class="submenu-title">Shirt</a>
                 </li>
 
                 <li class="submenu-category">
-                  <a href="#" class="submenu-title">Shorts & Jeans</a>
+                  <a href="/" class="submenu-title">Shorts & Jeans</a>
                 </li>
 
                 <li class="submenu-category">
-                  <a href="#" class="submenu-title">Safety Shoes</a>
+                  <a href="/" class="submenu-title">Safety Shoes</a>
                 </li>
 
                 <li class="submenu-category">
-                  <a href="#" class="submenu-title">Wallet</a>
+                  <a href="/" class="submenu-title">Wallet</a>
                 </li>
 
               </ul>
@@ -535,19 +540,19 @@ function App() {
               <ul class="submenu-category-list" data-accordion>
 
                 <li class="submenu-category">
-                  <a href="#" class="submenu-title">Dress & Frock</a>
+                  <a href="/" class="submenu-title">Dress & Frock</a>
                 </li>
 
                 <li class="submenu-category">
-                  <a href="#" class="submenu-title">Earrings</a>
+                  <a href="/" class="submenu-title">Earrings</a>
                 </li>
 
                 <li class="submenu-category">
-                  <a href="#" class="submenu-title">Necklace</a>
+                  <a href="/" class="submenu-title">Necklace</a>
                 </li>
 
                 <li class="submenu-category">
-                  <a href="#" class="submenu-title">Makeup Kit</a>
+                  <a href="/" class="submenu-title">Makeup Kit</a>
                 </li>
 
               </ul>
@@ -568,19 +573,19 @@ function App() {
               <ul class="submenu-category-list" data-accordion>
 
                 <li class="submenu-category">
-                  <a href="#" class="submenu-title">Earrings</a>
+                  <a href="/" class="submenu-title">Earrings</a>
                 </li>
 
                 <li class="submenu-category">
-                  <a href="#" class="submenu-title">Couple Rings</a>
+                  <a href="/" class="submenu-title">Couple Rings</a>
                 </li>
 
                 <li class="submenu-category">
-                  <a href="#" class="submenu-title">Necklace</a>
+                  <a href="/" class="submenu-title">Necklace</a>
                 </li>
 
                 <li class="submenu-category">
-                  <a href="#" class="submenu-title">Bracelets</a>
+                  <a href="/" class="submenu-title">Bracelets</a>
                 </li>
 
               </ul>
@@ -601,19 +606,19 @@ function App() {
               <ul class="submenu-category-list" data-accordion>
 
                 <li class="submenu-category">
-                  <a href="#" class="submenu-title">Clothes Perfume</a>
+                  <a href="/" class="submenu-title">Clothes Perfume</a>
                 </li>
 
                 <li class="submenu-category">
-                  <a href="#" class="submenu-title">Deodorant</a>
+                  <a href="/" class="submenu-title">Deodorant</a>
                 </li>
 
                 <li class="submenu-category">
-                  <a href="#" class="submenu-title">Flower Fragrance</a>
+                  <a href="/" class="submenu-title">Flower Fragrance</a>
                 </li>
 
                 <li class="submenu-category">
-                  <a href="#" class="submenu-title">Air Freshener</a>
+                  <a href="/" class="submenu-title">Air Freshener</a>
                 </li>
 
               </ul>
@@ -621,11 +626,11 @@ function App() {
             </li>
 
             <li class="menu-category">
-              <a href="#" class="menu-title">Blog</a>
+              <a href="/" class="menu-title">Blog</a>
             </li>
 
             <li class="menu-category">
-              <a href="#" class="menu-title">Hot Offers</a>
+              <a href="/" class="menu-title">Hot Offers</a>
             </li>
 
           </ul>
@@ -645,15 +650,15 @@ function App() {
                 <ul class="submenu-category-list" data-accordion>
 
                   <li class="submenu-category">
-                    <a href="#" class="submenu-title">English</a>
+                    <a href="/" class="submenu-title">English</a>
                   </li>
 
                   <li class="submenu-category">
-                    <a href="#" class="submenu-title">Espa&ntilde;ol</a>
+                    <a href="/" class="submenu-title">Espa&ntilde;ol</a>
                   </li>
 
                   <li class="submenu-category">
-                    <a href="#" class="submenu-title">Fren&ccedil;h</a>
+                    <a href="/" class="submenu-title">Fren&ccedil;h</a>
                   </li>
 
                 </ul>
@@ -668,11 +673,11 @@ function App() {
 
                 <ul class="submenu-category-list" data-accordion>
                   <li class="submenu-category">
-                    <a href="#" class="submenu-title">USD &dollar;</a>
+                    <a href="/" class="submenu-title">USD &dollar;</a>
                   </li>
 
                   <li class="submenu-category">
-                    <a href="#" class="submenu-title">EUR &euro;</a>
+                    <a href="/" class="submenu-title">EUR &euro;</a>
                   </li>
                 </ul>
               </li>
@@ -682,25 +687,25 @@ function App() {
             <ul class="menu-social-container">
 
               <li>
-                <a href="#" class="social-link">
+                <a href="/" class="social-link">
                   <ion-icon name="logo-facebook"></ion-icon>
                 </a>
               </li>
 
               <li>
-                <a href="#" class="social-link">
+                <a href="/" class="social-link">
                   <ion-icon name="logo-twitter"></ion-icon>
                 </a>
               </li>
 
               <li>
-                <a href="#" class="social-link">
+                <a href="/" class="social-link">
                   <ion-icon name="logo-instagram"></ion-icon>
                 </a>
               </li>
 
               <li>
-                <a href="#" class="social-link">
+                <a href="/" class="social-link">
                   <ion-icon name="logo-linkedin"></ion-icon>
                 </a>
               </li>
@@ -723,7 +728,7 @@ function App() {
 
               <div class="slider-item">
 
-                <img src="./assets/images/banner-1.jpg" alt="women's latest fashion sale" class="banner-img">
+                <img src="assets/banner-1.jpg" alt="women's latest fashion sale" class="banner-img"/>
 
                   <div class="banner-content">
 
@@ -735,7 +740,7 @@ function App() {
                       starting at &dollar; <b>20</b>.00
                     </p>
 
-                    <a href="#" class="banner-btn">Shop now</a>
+                    <a href="/" class="banner-btn">Shop now</a>
 
                   </div>
 
@@ -743,7 +748,7 @@ function App() {
 
               <div class="slider-item">
 
-                <img src="./assets/images/banner-2.jpg" alt="modern sunglasses" class="banner-img">
+                <img src="assets/banner-2.jpg" alt="modern sunglasses" class="banner-img"/>
 
                   <div class="banner-content">
 
@@ -755,7 +760,7 @@ function App() {
                       starting at &dollar; <b>15</b>.00
                     </p>
 
-                    <a href="#" class="banner-btn">Shop now</a>
+                    <a href="/" class="banner-btn">Shop now</a>
 
                   </div>
 
@@ -763,7 +768,7 @@ function App() {
 
               <div class="slider-item">
 
-                <img src="./assets/images/banner-3.jpg" alt="new fashion summer sale" class="banner-img">
+                <img src="assets/banner-3.jpg" alt="new fashion summer sale" class="banner-img"/>
 
                   <div class="banner-content">
 
@@ -775,7 +780,7 @@ function App() {
                       starting at &dollar; <b>29</b>.99
                     </p>
 
-                    <a href="#" class="banner-btn">Shop now</a>
+                    <a href="/" class="banner-btn">Shop now</a>
 
                   </div>
 
@@ -796,7 +801,7 @@ function App() {
               <div class="category-item">
 
                 <div class="category-img-box">
-                  <img src="./assets/images/icons/dress.svg" alt="dress & frock" width="30">
+                  <img src="assets/icons/dress.svg" alt="dress & frock" width="30"/>
                 </div>
 
                 <div class="category-content-box">
@@ -807,7 +812,7 @@ function App() {
                     <p class="category-item-amount">(53)</p>
                   </div>
 
-                  <a href="#" class="category-btn">Show all</a>
+                  <a href="/" class="category-btn">Show all</a>
 
                 </div>
 
@@ -816,7 +821,7 @@ function App() {
               <div class="category-item">
 
                 <div class="category-img-box">
-                  <img src="./assets/images/icons/coat.svg" alt="winter wear" width="30">
+                  <img src="assets/icons/coat.svg" alt="winter wear" width="30"/>
                 </div>
 
                 <div class="category-content-box">
@@ -827,7 +832,7 @@ function App() {
                     <p class="category-item-amount">(58)</p>
                   </div>
 
-                  <a href="#" class="category-btn">Show all</a>
+                  <a href="/" class="category-btn">Show all</a>
 
                 </div>
 
@@ -836,7 +841,7 @@ function App() {
               <div class="category-item">
 
                 <div class="category-img-box">
-                  <img src="./assets/images/icons/glasses.svg" alt="glasses & lens" width="30">
+                  <img src="assets/icons/glasses.svg" alt="glasses & lens" width="30"/>
                 </div>
 
                 <div class="category-content-box">
@@ -847,7 +852,7 @@ function App() {
                     <p class="category-item-amount">(68)</p>
                   </div>
 
-                  <a href="#" class="category-btn">Show all</a>
+                  <a href="/" class="category-btn">Show all</a>
 
                 </div>
 
@@ -856,7 +861,7 @@ function App() {
               <div class="category-item">
 
                 <div class="category-img-box">
-                  <img src="./assets/images/icons/shorts.svg" alt="shorts & jeans" width="30">
+                  <img src="assets/icons/shorts.svg" alt="shorts & jeans" width="30"/>
                 </div>
 
                 <div class="category-content-box">
@@ -867,7 +872,7 @@ function App() {
                     <p class="category-item-amount">(84)</p>
                   </div>
 
-                  <a href="#" class="category-btn">Show all</a>
+                  <a href="/" class="category-btn">Show all</a>
 
                 </div>
 
@@ -876,7 +881,7 @@ function App() {
               <div class="category-item">
 
                 <div class="category-img-box">
-                  <img src="./assets/images/icons/tee.svg" alt="t-shirts" width="30">
+                  <img src="assets/icons/tee.svg" alt="t-shirts" width="30"/>
                 </div>
 
                 <div class="category-content-box">
@@ -887,7 +892,7 @@ function App() {
                     <p class="category-item-amount">(35)</p>
                   </div>
 
-                  <a href="#" class="category-btn">Show all</a>
+                  <a href="/" class="category-btn">Show all</a>
 
                 </div>
 
@@ -896,7 +901,7 @@ function App() {
               <div class="category-item">
 
                 <div class="category-img-box">
-                  <img src="./assets/images/icons/jacket.svg" alt="jacket" width="30">
+                  <img src="assets/icons/jacket.svg" alt="jacket" width="30"/>
                 </div>
 
                 <div class="category-content-box">
@@ -907,7 +912,7 @@ function App() {
                     <p class="category-item-amount">(16)</p>
                   </div>
 
-                  <a href="#" class="category-btn">Show all</a>
+                  <a href="/" class="category-btn">Show all</a>
 
                 </div>
 
@@ -916,7 +921,7 @@ function App() {
               <div class="category-item">
 
                 <div class="category-img-box">
-                  <img src="./assets/images/icons/watch.svg" alt="watch" width="30">
+                  <img src="assets/icons/watch.svg" alt="watch" width="30"/>
                 </div>
 
                 <div class="category-content-box">
@@ -927,7 +932,7 @@ function App() {
                     <p class="category-item-amount">(27)</p>
                   </div>
 
-                  <a href="#" class="category-btn">Show all</a>
+                  <a href="/" class="category-btn">Show all</a>
 
                 </div>
 
@@ -936,7 +941,7 @@ function App() {
               <div class="category-item">
 
                 <div class="category-img-box">
-                  <img src="./assets/images/icons/hat.svg" alt="hat & caps" width="30">
+                  <img src="assets/icons/hat.svg" alt="hat & caps" width="30"/>
                 </div>
 
                 <div class="category-content-box">
@@ -947,7 +952,7 @@ function App() {
                     <p class="category-item-amount">(39)</p>
                   </div>
 
-                  <a href="#" class="category-btn">Show all</a>
+                  <a href="/" class="category-btn">Show all</a>
 
                 </div>
 
@@ -986,8 +991,8 @@ function App() {
                     <button class="sidebar-accordion-menu" data-accordion-btn>
 
                       <div class="menu-title-flex">
-                        <img src="./assets/images/icons/dress.svg" alt="clothes" width="20" height="20"
-                          class="menu-title-img">
+                        <img src="assets/icons/dress.svg" alt="clothes" width="20" height="20"
+                          class="menu-title-img"/>
 
                           <p class="menu-title">Clothes</p>
                       </div>
@@ -1002,28 +1007,28 @@ function App() {
                     <ul class="sidebar-submenu-category-list" data-accordion>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">Shirt</p>
                           <data value="300" class="stock" title="Available Stock">300</data>
                         </a>
                       </li>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">shorts & jeans</p>
                           <data value="60" class="stock" title="Available Stock">60</data>
                         </a>
                       </li>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">jacket</p>
                           <data value="50" class="stock" title="Available Stock">50</data>
                         </a>
                       </li>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">dress & frock</p>
                           <data value="87" class="stock" title="Available Stock">87</data>
                         </a>
@@ -1038,8 +1043,8 @@ function App() {
                     <button class="sidebar-accordion-menu" data-accordion-btn>
 
                       <div class="menu-title-flex">
-                        <img src="./assets/images/icons/shoes.svg" alt="footwear" class="menu-title-img" width="20"
-                          height="20">
+                        <img src="assets/icons/shoes.svg" alt="footwear" class="menu-title-img" width="20"
+                          height="20"/>
 
                           <p class="menu-title">Footwear</p>
                       </div>
@@ -1054,28 +1059,28 @@ function App() {
                     <ul class="sidebar-submenu-category-list" data-accordion>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">Sports</p>
                           <data value="45" class="stock" title="Available Stock">45</data>
                         </a>
                       </li>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">Formal</p>
                           <data value="75" class="stock" title="Available Stock">75</data>
                         </a>
                       </li>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">Casual</p>
                           <data value="35" class="stock" title="Available Stock">35</data>
                         </a>
                       </li>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">Safety Shoes</p>
                           <data value="26" class="stock" title="Available Stock">26</data>
                         </a>
@@ -1090,8 +1095,8 @@ function App() {
                     <button class="sidebar-accordion-menu" data-accordion-btn>
 
                       <div class="menu-title-flex">
-                        <img src="./assets/images/icons/jewelry.svg" alt="clothes" class="menu-title-img" width="20"
-                          height="20">
+                        <img src="assets/icons/jewelry.svg" alt="clothes" class="menu-title-img" width="20"
+                          height="20"/>
 
                           <p class="menu-title">Jewelry</p>
                       </div>
@@ -1106,21 +1111,21 @@ function App() {
                     <ul class="sidebar-submenu-category-list" data-accordion>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">Earrings</p>
                           <data value="46" class="stock" title="Available Stock">46</data>
                         </a>
                       </li>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">Couple Rings</p>
                           <data value="73" class="stock" title="Available Stock">73</data>
                         </a>
                       </li>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">Necklace</p>
                           <data value="61" class="stock" title="Available Stock">61</data>
                         </a>
@@ -1135,8 +1140,8 @@ function App() {
                     <button class="sidebar-accordion-menu" data-accordion-btn>
 
                       <div class="menu-title-flex">
-                        <img src="./assets/images/icons/perfume.svg" alt="perfume" class="menu-title-img" width="20"
-                          height="20">
+                        <img src="assets/icons/perfume.svg" alt="perfume" class="menu-title-img" width="20"
+                          height="20"/>
 
                           <p class="menu-title">Perfume</p>
                       </div>
@@ -1151,28 +1156,28 @@ function App() {
                     <ul class="sidebar-submenu-category-list" data-accordion>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">Clothes Perfume</p>
                           <data value="12" class="stock" title="Available Stock">12 pcs</data>
                         </a>
                       </li>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">Deodorant</p>
                           <data value="60" class="stock" title="Available Stock">60 pcs</data>
                         </a>
                       </li>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">jacket</p>
                           <data value="50" class="stock" title="Available Stock">50 pcs</data>
                         </a>
                       </li>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">dress & frock</p>
                           <data value="87" class="stock" title="Available Stock">87 pcs</data>
                         </a>
@@ -1187,8 +1192,8 @@ function App() {
                     <button class="sidebar-accordion-menu" data-accordion-btn>
 
                       <div class="menu-title-flex">
-                        <img src="./assets/images/icons/cosmetics.svg" alt="cosmetics" class="menu-title-img" width="20"
-                          height="20">
+                        <img src="assets/icons/cosmetics.svg" alt="cosmetics" class="menu-title-img" width="20"
+                          height="20"/>
 
                           <p class="menu-title">Cosmetics</p>
                       </div>
@@ -1203,28 +1208,28 @@ function App() {
                     <ul class="sidebar-submenu-category-list" data-accordion>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">Shampoo</p>
                           <data value="68" class="stock" title="Available Stock">68</data>
                         </a>
                       </li>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">Sunscreen</p>
                           <data value="46" class="stock" title="Available Stock">46</data>
                         </a>
                       </li>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">Body Wash</p>
                           <data value="79" class="stock" title="Available Stock">79</data>
                         </a>
                       </li>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">Makeup Kit</p>
                           <data value="23" class="stock" title="Available Stock">23</data>
                         </a>
@@ -1239,8 +1244,8 @@ function App() {
                     <button class="sidebar-accordion-menu" data-accordion-btn>
 
                       <div class="menu-title-flex">
-                        <img src="./assets/images/icons/glasses.svg" alt="glasses" class="menu-title-img" width="20"
-                          height="20">
+                        <img src="assets/icons/glasses.svg" alt="glasses" class="menu-title-img" width="20"
+                          height="20"/>
 
                           <p class="menu-title">Glasses</p>
                       </div>
@@ -1255,14 +1260,14 @@ function App() {
                     <ul class="sidebar-submenu-category-list" data-accordion>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">Sunglasses</p>
                           <data value="50" class="stock" title="Available Stock">50</data>
                         </a>
                       </li>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">Lenses</p>
                           <data value="48" class="stock" title="Available Stock">48</data>
                         </a>
@@ -1277,7 +1282,7 @@ function App() {
                     <button class="sidebar-accordion-menu" data-accordion-btn>
 
                       <div class="menu-title-flex">
-                        <img src="./assets/images/icons/bag.svg" alt="bags" class="menu-title-img" width="20" height="20"/>
+                        <img src="assets/icons/bag.svg" alt="bags" class="menu-title-img" width="20" height="20"/>
 
                           <p class="menu-title">Bags</p>
                       </div>
@@ -1292,28 +1297,28 @@ function App() {
                     <ul class="sidebar-submenu-category-list" data-accordion>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">Shopping Bag</p>
                           <data value="62" class="stock" title="Available Stock">62</data>
                         </a>
                       </li>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">Gym Backpack</p>
                           <data value="35" class="stock" title="Available Stock">35</data>
                         </a>
                       </li>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">Purse</p>
                           <data value="80" class="stock" title="Available Stock">80</data>
                         </a>
                       </li>
 
                       <li class="sidebar-submenu-category">
-                        <a href="#" class="sidebar-submenu-title">
+                        <a href="/" class="sidebar-submenu-title">
                           <p class="product-name">Wallet</p>
                           <data value="75" class="stock" title="Available Stock">75</data>
                         </a>
@@ -1337,14 +1342,14 @@ function App() {
 
                     <div class="showcase">
 
-                      <a href="#" class="showcase-img-box">
-                        <img src="./assets/images/products/1.jpg" alt="baby fabric shoes" width="75" height="75"
-                          class="showcase-img">
+                      <a href="/" class="showcase-img-box">
+                        <img src="assets/products/1.jpg" alt="baby fabric shoes" width="75" height="75"
+                          class="showcase-img"/>
                       </a>
 
                       <div class="showcase-content">
 
-                        <a href="#">
+                        <a href="/">
                           <h4 class="showcase-title">baby fabric shoes</h4>
                         </a>
 
@@ -1367,14 +1372,14 @@ function App() {
 
                     <div class="showcase">
 
-                      <a href="#" class="showcase-img-box">
-                        <img src="./assets/images/products/2.jpg" alt="men's hoodies t-shirt" class="showcase-img"
-                          width="75" height="75">
+                      <a href="/" class="showcase-img-box">
+                        <img src="assets/products/2.jpg" alt="men's hoodies t-shirt" class="showcase-img"
+                          width="75" height="75"/>
                       </a>
 
                       <div class="showcase-content">
 
-                        <a href="#">
+                        <a href="/">
                           <h4 class="showcase-title">men's hoodies t-shirt</h4>
                         </a>
                         <div class="showcase-rating">
@@ -1396,14 +1401,14 @@ function App() {
 
                     <div class="showcase">
 
-                      <a href="#" class="showcase-img-box">
-                        <img src="./assets/images/products/3.jpg" alt="girls t-shirt" class="showcase-img" width="75"
-                          height="75">
+                      <a href="/" class="showcase-img-box">
+                        <img src="assets/products/3.jpg" alt="girls t-shirt" class="showcase-img" width="75"
+                          height="75"/>
                       </a>
 
                       <div class="showcase-content">
 
-                        <a href="#">
+                        <a href="/">
                           <h4 class="showcase-title">girls t-shirt</h4>
                         </a>
                         <div class="showcase-rating">
@@ -1425,14 +1430,14 @@ function App() {
 
                     <div class="showcase">
 
-                      <a href="#" class="showcase-img-box">
-                        <img src="./assets/images/products/4.jpg" alt="woolen hat for men" class="showcase-img" width="75"
-                          height="75">
+                      <a href="/" class="showcase-img-box">
+                        <img src="assets/products/4.jpg" alt="woolen hat for men" class="showcase-img" width="75"
+                          height="75"/>
                       </a>
 
                       <div class="showcase-content">
 
-                        <a href="#">
+                        <a href="/">
                           <h4 class="showcase-title">woolen hat for men</h4>
                         </a>
                         <div class="showcase-rating">
@@ -1476,17 +1481,17 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/clothes-1.jpg" alt="relaxed short full sleeve t-shirt" width="70" class="showcase-img">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/clothes-1.jpg" alt="relaxed short full sleeve t-shirt" width="70" class="showcase-img"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">Relaxed Short full Sleeve T-Shirt</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">Clothes</a>
+                          <a href="/" class="showcase-category">Clothes</a>
 
                           <div class="price-box">
                             <p class="price">$45.00</p>
@@ -1499,17 +1504,17 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/clothes-2.jpg" alt="girls pink embro design top" class="showcase-img" width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/clothes-2.jpg" alt="girls pink embro design top" class="showcase-img" width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">Girls pnk Embro design Top</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">Clothes</a>
+                          <a href="/" class="showcase-category">Clothes</a>
 
                           <div class="price-box">
                             <p class="price">$61.00</p>
@@ -1522,18 +1527,18 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/clothes-3.jpg" alt="black floral wrap midi skirt" class="showcase-img"
-                            width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/clothes-3.jpg" alt="black floral wrap midi skirt" class="showcase-img"
+                            width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">Black Floral Wrap Midi Skirt</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">Clothes</a>
+                          <a href="/" class="showcase-category">Clothes</a>
 
                           <div class="price-box">
                             <p class="price">$76.00</p>
@@ -1546,18 +1551,18 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/shirt-1.jpg" alt="pure garment dyed cotton shirt" class="showcase-img"
-                            width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/shirt-1.jpg" alt="pure garment dyed cotton shirt" class="showcase-img"
+                            width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">Pure Garment Dyed Cotton Shirt</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">Mens Fashion</a>
+                          <a href="/" class="showcase-category">Mens Fashion</a>
 
                           <div class="price-box">
                             <p class="price">$68.00</p>
@@ -1574,18 +1579,18 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/jacket-5.jpg" alt="men yarn fleece full-zip jacket" class="showcase-img"
-                            width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/jacket-5.jpg" alt="men yarn fleece full-zip jacket" class="showcase-img"
+                            width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">MEN Yarn Fleece Full-Zip Jacket</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">Winter wear</a>
+                          <a href="/" class="showcase-category">Winter wear</a>
 
                           <div class="price-box">
                             <p class="price">$61.00</p>
@@ -1598,18 +1603,18 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/jacket-1.jpg" alt="mens winter leathers jackets" class="showcase-img"
-                            width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/jacket-1.jpg" alt="mens winter leathers jackets" class="showcase-img"
+                            width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">Mens Winter Leathers Jackets</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">Winter wear</a>
+                          <a href="/" class="showcase-category">Winter wear</a>
 
                           <div class="price-box">
                             <p class="price">$32.00</p>
@@ -1622,18 +1627,18 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/jacket-3.jpg" alt="mens winter leathers jackets" class="showcase-img"
-                            width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/jacket-3.jpg" alt="mens winter leathers jackets" class="showcase-img"
+                            width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">Mens Winter Leathers Jackets</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">Jackets</a>
+                          <a href="/" class="showcase-category">Jackets</a>
 
                           <div class="price-box">
                             <p class="price">$50.00</p>
@@ -1646,18 +1651,18 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/shorts-1.jpg" alt="better basics french terry sweatshorts" class="showcase-img"
-                            width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/shorts-1.jpg" alt="better basics french terry sweatshorts" class="showcase-img"
+                            width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">Better Basics French Terry Sweatshorts</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">Shorts</a>
+                          <a href="/" class="showcase-category">Shorts</a>
 
                           <div class="price-box">
                             <p class="price">$20.00</p>
@@ -1684,18 +1689,18 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/sports-1.jpg" alt="running & trekking shoes - white" class="showcase-img"
-                            width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/sports-1.jpg" alt="running & trekking shoes - white" class="showcase-img"
+                            width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">Running & Trekking Shoes - White</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">Sports</a>
+                          <a href="/" class="showcase-category">Sports</a>
 
                           <div class="price-box">
                             <p class="price">$49.00</p>
@@ -1708,18 +1713,18 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/sports-2.jpg" alt="trekking & running shoes - black" class="showcase-img"
-                            width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/sports-2.jpg" alt="trekking & running shoes - black" class="showcase-img"
+                            width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">Trekking & Running Shoes - black</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">Sports</a>
+                          <a href="/" class="showcase-category">Sports</a>
 
                           <div class="price-box">
                             <p class="price">$78.00</p>
@@ -1732,18 +1737,18 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/party-wear-1.jpg" alt="womens party wear shoes" class="showcase-img"
-                            width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/party-wear-1.jpg" alt="womens party wear shoes" class="showcase-img"
+                            width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">Womens Party Wear Shoes</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">Party wear</a>
+                          <a href="/" class="showcase-category">Party wear</a>
 
                           <div class="price-box">
                             <p class="price">$94.00</p>
@@ -1756,18 +1761,18 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/sports-3.jpg" alt="sports claw women's shoes" class="showcase-img"
-                            width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/sports-3.jpg" alt="sports claw women's shoes" class="showcase-img"
+                            width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">Sports Claw Women's Shoes</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">Sports</a>
+                          <a href="/" class="showcase-category">Sports</a>
 
                           <div class="price-box">
                             <p class="price">$54.00</p>
@@ -1782,18 +1787,18 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/sports-6.jpg" alt="air tekking shoes - white" class="showcase-img"
-                            width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/sports-6.jpg" alt="air tekking shoes - white" class="showcase-img"
+                            width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">Air Trekking Shoes - white</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">Sports</a>
+                          <a href="/" class="showcase-category">Sports</a>
 
                           <div class="price-box">
                             <p class="price">$52.00</p>
@@ -1806,17 +1811,17 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/shoe-3.jpg" alt="Boot With Suede Detail" class="showcase-img" width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/shoe-3.jpg" alt="Boot With Suede Detail" class="showcase-img" width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">Boot With Suede Detail</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">boots</a>
+                          <a href="/" class="showcase-category">boots</a>
 
                           <div class="price-box">
                             <p class="price">$20.00</p>
@@ -1829,18 +1834,18 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/shoe-1.jpg" alt="men's leather formal wear shoes" class="showcase-img"
-                            width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/shoe-1.jpg" alt="men's leather formal wear shoes" class="showcase-img"
+                            width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">Men's Leather Formal Wear shoes</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">formal</a>
+                          <a href="/" class="showcase-category">formal</a>
 
                           <div class="price-box">
                             <p class="price">$56.00</p>
@@ -1853,17 +1858,17 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/shoe-2.jpg" alt="casual men's brown shoes" class="showcase-img" width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/shoe-2.jpg" alt="casual men's brown shoes" class="showcase-img" width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">Casual Men's Brown shoes</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">Casual</a>
+                          <a href="/" class="showcase-category">Casual</a>
 
                           <div class="price-box">
                             <p class="price">$50.00</p>
@@ -1890,18 +1895,18 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
-                            width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                            width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">Pocket Watch Leather Pouch</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">Watches</a>
+                          <a href="/" class="showcase-category">Watches</a>
 
                           <div class="price-box">
                             <p class="price">$50.00</p>
@@ -1914,18 +1919,18 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
-                            width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
+                            width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">Silver Deer Heart Necklace</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">Jewellery</a>
+                          <a href="/" class="showcase-category">Jewellery</a>
 
                           <div class="price-box">
                             <p class="price">$84.00</p>
@@ -1938,18 +1943,18 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
-                            width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
+                            width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">Titan 100 Ml Womens Perfume</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">Perfume</a>
+                          <a href="/" class="showcase-category">Perfume</a>
 
                           <div class="price-box">
                             <p class="price">$42.00</p>
@@ -1962,18 +1967,18 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
-                            width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
+                            width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">Men's Leather Reversible Belt</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">Belt</a>
+                          <a href="/" class="showcase-category">Belt</a>
 
                           <div class="price-box">
                             <p class="price">$24.00</p>
@@ -1990,18 +1995,18 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/jewellery-2.jpg" alt="platinum zircon classic ring" class="showcase-img"
-                            width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/jewellery-2.jpg" alt="platinum zircon classic ring" class="showcase-img"
+                            width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">platinum Zircon Classic Ring</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">jewellery</a>
+                          <a href="/" class="showcase-category">jewellery</a>
 
                           <div class="price-box">
                             <p class="price">$62.00</p>
@@ -2014,17 +2019,17 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/watch-1.jpg" alt="smart watche vital plus" class="showcase-img" width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/watch-1.jpg" alt="smart watche vital plus" class="showcase-img" width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">Smart watche Vital Plus</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">Watches</a>
+                          <a href="/" class="showcase-category">Watches</a>
 
                           <div class="price-box">
                             <p class="price">$56.00</p>
@@ -2037,18 +2042,18 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/shampoo.jpg" alt="shampoo conditioner packs" class="showcase-img"
-                            width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/shampoo.jpg" alt="shampoo conditioner packs" class="showcase-img"
+                            width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">shampoo conditioner packs</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">cosmetics</a>
+                          <a href="/" class="showcase-category">cosmetics</a>
 
                           <div class="price-box">
                             <p class="price">$20.00</p>
@@ -2061,18 +2066,18 @@ function App() {
 
                       <div class="showcase">
 
-                        <a href="#" class="showcase-img-box">
-                          <img src="./assets/images/products/jewellery-1.jpg" alt="rose gold peacock earrings" class="showcase-img"
-                            width="70">
+                        <a href="/" class="showcase-img-box">
+                          <img src="assets/products/jewellery-1.jpg" alt="rose gold peacock earrings" class="showcase-img"
+                            width="70"/>
                         </a>
 
                         <div class="showcase-content">
 
-                          <a href="#">
+                          <a href="/">
                             <h4 class="showcase-title">Rose Gold Peacock Earrings</h4>
                           </a>
 
-                          <a href="#" class="showcase-category">jewellery</a>
+                          <a href="/" class="showcase-category">jewellery</a>
 
                           <div class="price-box">
                             <p class="price">$20.00</p>
@@ -2102,7 +2107,7 @@ function App() {
                     <div class="showcase">
 
                       <div class="showcase-banner">
-                        <img src="./assets/images/products/shampoo.jpg" alt="shampoo, conditioner & facewash packs" class="showcase-img">
+                        <img src="assets/products/shampoo.jpg" alt="shampoo, conditioner & facewash packs" class="showcase-img"/>
                       </div>
 
                       <div class="showcase-content">
@@ -2115,7 +2120,7 @@ function App() {
                           <ion-icon name="star-outline"></ion-icon>
                         </div>
 
-                        <a href="#">
+                        <a href="/">
                           <h3 class="showcase-title">shampoo, conditioner & facewash packs</h3>
                         </a>
 
@@ -2192,7 +2197,7 @@ function App() {
                     <div class="showcase">
 
                       <div class="showcase-banner">
-                        <img src="./assets/images/products/jewellery-1.jpg" alt="Rose Gold diamonds Earring" class="showcase-img">
+                        <img src="assets/products/jewellery-1.jpg" alt="Rose Gold diamonds Earring" class="showcase-img"/>
                       </div>
 
                       <div class="showcase-content">
@@ -2206,7 +2211,7 @@ function App() {
                         </div>
 
                         <h3 class="showcase-title">
-                          <a href="#" class="showcase-title">Rose Gold diamonds Earring</a>
+                          <a href="/" class="showcase-title">Rose Gold diamonds Earring</a>
                         </h3>
 
                         <p class="showcase-desc">
@@ -2278,8 +2283,8 @@ function App() {
 
                     <div class="showcase-banner">
 
-                      <img src="./assets/images/products/jacket-3.jpg" alt="Mens Winter Leathers Jackets" width="300" class="product-img default">
-                        <img src="./assets/images/products/jacket-4.jpg" alt="Mens Winter Leathers Jackets" width="300" class="product-img hover">
+                      <img src="assets/products/jacket-3.jpg" alt="Mens Winter Leathers Jackets" width="300" class="product-img default"/>
+                        <img src="assets/products/jacket-4.jpg" alt="Mens Winter Leathers Jackets" width="300" class="product-img hover"/>
 
                           <p class="showcase-badge">15%</p>
 
@@ -2307,9 +2312,9 @@ function App() {
 
                         <div class="showcase-content">
 
-                          <a href="#" class="showcase-category">jacket</a>
+                          <a href="/" class="showcase-category">jacket</a>
 
-                          <a href="#">
+                          <a href="/">
                             <h3 class="showcase-title">Mens Winter Leathers Jackets</h3>
                           </a>
 
@@ -2333,10 +2338,10 @@ function App() {
                     <div class="showcase">
 
                       <div class="showcase-banner">
-                        <img src="./assets/images/products/shirt-1.jpg" alt="Pure Garment Dyed Cotton Shirt" class="product-img default"
-                          width="300">
-                          <img src="./assets/images/products/shirt-2.jpg" alt="Pure Garment Dyed Cotton Shirt" class="product-img hover"
-                            width="300">
+                        <img src="assets/products/shirt-1.jpg" alt="Pure Garment Dyed Cotton Shirt" class="product-img default"
+                          width="300"/>
+                          <img src="assets/products/shirt-2.jpg" alt="Pure Garment Dyed Cotton Shirt" class="product-img hover"
+                            width="300"/>
 
                             <p class="showcase-badge angle black">sale</p>
 
@@ -2360,10 +2365,10 @@ function App() {
                           </div>
 
                           <div class="showcase-content">
-                            <a href="#" class="showcase-category">shirt</a>
+                            <a href="/" class="showcase-category">shirt</a>
 
                             <h3>
-                              <a href="#" class="showcase-title">Pure Garment Dyed Cotton Shirt</a>
+                              <a href="/" class="showcase-title">Pure Garment Dyed Cotton Shirt</a>
                             </h3>
 
                             <div class="showcase-rating">
@@ -2386,10 +2391,10 @@ function App() {
                       <div class="showcase">
 
                         <div class="showcase-banner">
-                          <img src="./assets/images/products/jacket-5.jpg" alt="MEN Yarn Fleece Full-Zip Jacket" class="product-img default"
-                            width="300">
-                            <img src="./assets/images/products/jacket-6.jpg" alt="MEN Yarn Fleece Full-Zip Jacket" class="product-img hover"
-                              width="300">
+                          <img src="assets/products/jacket-5.jpg" alt="MEN Yarn Fleece Full-Zip Jacket" class="product-img default"
+                            width="300"/>
+                            <img src="assets/products/jacket-6.jpg" alt="MEN Yarn Fleece Full-Zip Jacket" class="product-img hover"
+                              width="300"/>
 
                               <div class="showcase-actions">
                                 <button class="btn-action">
@@ -2411,10 +2416,10 @@ function App() {
                             </div>
 
                             <div class="showcase-content">
-                              <a href="#" class="showcase-category">Jacket</a>
+                              <a href="/" class="showcase-category">Jacket</a>
 
                               <h3>
-                                <a href="#" class="showcase-title">MEN Yarn Fleece Full-Zip Jacket</a>
+                                <a href="/" class="showcase-title">MEN Yarn Fleece Full-Zip Jacket</a>
                               </h3>
 
                               <div class="showcase-rating">
@@ -2437,10 +2442,10 @@ function App() {
                         <div class="showcase">
 
                           <div class="showcase-banner">
-                            <img src="./assets/images/products/clothes-3.jpg" alt="Black Floral Wrap Midi Skirt" class="product-img default"
-                              width="300">
-                              <img src="./assets/images/products/clothes-4.jpg" alt="Black Floral Wrap Midi Skirt" class="product-img hover"
-                                width="300">
+                            <img src="assets/products/clothes-3.jpg" alt="Black Floral Wrap Midi Skirt" class="product-img default"
+                              width="300"/>
+                              <img src="assets/products/clothes-4.jpg" alt="Black Floral Wrap Midi Skirt" class="product-img hover"
+                                width="300"/>
 
                                 <p class="showcase-badge angle pink">new</p>
 
@@ -2464,10 +2469,10 @@ function App() {
                               </div>
 
                               <div class="showcase-content">
-                                <a href="#" class="showcase-category">skirt</a>
+                                <a href="/" class="showcase-category">skirt</a>
 
                                 <h3>
-                                  <a href="#" class="showcase-title">Black Floral Wrap Midi Skirt</a>
+                                  <a href="/" class="showcase-title">Black Floral Wrap Midi Skirt</a>
                                 </h3>
 
                                 <div class="showcase-rating">
@@ -2490,10 +2495,10 @@ function App() {
                           <div class="showcase">
 
                             <div class="showcase-banner">
-                              <img src="./assets/images/products/shoe-2.jpg" alt="Casual Men's Brown shoes" class="product-img default"
-                                width="300">
-                                <img src="./assets/images/products/shoe-2_1.jpg" alt="Casual Men's Brown shoes" class="product-img hover"
-                                  width="300">
+                              <img src="assets/products/shoe-2.jpg" alt="Casual Men's Brown shoes" class="product-img default"
+                                width="300"/>
+                                <img src="assets/products/shoe-2_1.jpg" alt="Casual Men's Brown shoes" class="product-img hover"
+                                  width="300"/>
 
                                   <div class="showcase-actions">
                                     <button class="btn-action">
@@ -2515,10 +2520,10 @@ function App() {
                                 </div>
 
                                 <div class="showcase-content">
-                                  <a href="#" class="showcase-category">casual</a>
+                                  <a href="/" class="showcase-category">casual</a>
 
                                   <h3>
-                                    <a href="#" class="showcase-title">Casual Men's Brown shoes</a>
+                                    <a href="/" class="showcase-title">Casual Men's Brown shoes</a>
                                   </h3>
 
                                   <div class="showcase-rating">
@@ -2541,10 +2546,10 @@ function App() {
                             <div class="showcase">
 
                               <div class="showcase-banner">
-                                <img src="./assets/images/products/watch-3.jpg" alt="Pocket Watch Leather Pouch" class="product-img default"
-                                  width="300">
-                                  <img src="./assets/images/products/watch-4.jpg" alt="Pocket Watch Leather Pouch" class="product-img hover"
-                                    width="300">
+                                <img src="assets/products/watch-3.jpg" alt="Pocket Watch Leather Pouch" class="product-img default"
+                                  width="300"/>
+                                  <img src="assets/products/watch-4.jpg" alt="Pocket Watch Leather Pouch" class="product-img hover"
+                                    width="300"/>
 
                                     <p class="showcase-badge angle black">sale</p>
 
@@ -2568,10 +2573,10 @@ function App() {
                                   </div>
 
                                   <div class="showcase-content">
-                                    <a href="#" class="showcase-category">watches</a>
+                                    <a href="/" class="showcase-category">watches</a>
 
                                     <h3>
-                                      <a href="#" class="showcase-title">Pocket Watch Leather Pouch</a>
+                                      <a href="/" class="showcase-title">Pocket Watch Leather Pouch</a>
                                     </h3>
 
                                     <div class="showcase-rating">
@@ -2594,9 +2599,9 @@ function App() {
                               <div class="showcase">
 
                                 <div class="showcase-banner">
-                                  <img src="./assets/images/products/watch-1.jpg" alt="Smart watche Vital Plus" class="product-img default"
-                                    width="300">
-                                    <img src="./assets/images/products/watch-2.jpg" alt="Smart watche Vital Plus" class="product-img hover" width="300">
+                                  <img src="assets/products/watch-1.jpg" alt="Smart watche Vital Plus" class="product-img default"
+                                    width="300"/>
+                                    <img src="assets/products/watch-2.jpg" alt="Smart watche Vital Plus" class="product-img hover" width="300"/>
 
                                       <div class="showcase-actions">
                                         <button class="btn-action">
@@ -2618,10 +2623,10 @@ function App() {
                                     </div>
 
                                     <div class="showcase-content">
-                                      <a href="#" class="showcase-category">watches</a>
+                                      <a href="/" class="showcase-category">watches</a>
 
                                       <h3>
-                                        <a href="#" class="showcase-title">Smart watche Vital Plus</a>
+                                        <a href="/" class="showcase-title">Smart watche Vital Plus</a>
                                       </h3>
 
                                       <div class="showcase-rating">
@@ -2644,10 +2649,10 @@ function App() {
                                 <div class="showcase">
 
                                   <div class="showcase-banner">
-                                    <img src="./assets/images/products/party-wear-1.jpg" alt="Womens Party Wear Shoes" class="product-img default"
-                                      width="300">
-                                      <img src="./assets/images/products/party-wear-2.jpg" alt="Womens Party Wear Shoes" class="product-img hover"
-                                        width="300">
+                                    <img src="assets/products/party-wear-1.jpg" alt="Womens Party Wear Shoes" class="product-img default"
+                                      width="300"/>
+                                      <img src="assets/products/party-wear-2.jpg" alt="Womens Party Wear Shoes" class="product-img hover"
+                                        width="300"/>
 
                                         <p class="showcase-badge angle black">sale</p>
 
@@ -2671,10 +2676,10 @@ function App() {
                                       </div>
 
                                       <div class="showcase-content">
-                                        <a href="#" class="showcase-category">party wear</a>
+                                        <a href="/" class="showcase-category">party wear</a>
 
                                         <h3>
-                                          <a href="#" class="showcase-title">Womens Party Wear Shoes</a>
+                                          <a href="/" class="showcase-title">Womens Party Wear Shoes</a>
                                         </h3>
 
                                         <div class="showcase-rating">
@@ -2697,10 +2702,10 @@ function App() {
                                   <div class="showcase">
 
                                     <div class="showcase-banner">
-                                      <img src="./assets/images/products/jacket-1.jpg" alt="Mens Winter Leathers Jackets" class="product-img default"
-                                        width="300">
-                                        <img src="./assets/images/products/jacket-2.jpg" alt="Mens Winter Leathers Jackets" class="product-img hover"
-                                          width="300">
+                                      <img src="assets/products/jacket-1.jpg" alt="Mens Winter Leathers Jackets" class="product-img default"
+                                        width="300"/>
+                                        <img src="assets/products/jacket-2.jpg" alt="Mens Winter Leathers Jackets" class="product-img hover"
+                                          width="300"/>
 
                                           <div class="showcase-actions">
                                             <button class="btn-action">
@@ -2722,10 +2727,10 @@ function App() {
                                         </div>
 
                                         <div class="showcase-content">
-                                          <a href="#" class="showcase-category">jacket</a>
+                                          <a href="/" class="showcase-category">jacket</a>
 
                                           <h3>
-                                            <a href="#" class="showcase-title">Mens Winter Leathers Jackets</a>
+                                            <a href="/" class="showcase-title">Mens Winter Leathers Jackets</a>
                                           </h3>
 
                                           <div class="showcase-rating">
@@ -2748,10 +2753,10 @@ function App() {
                                     <div class="showcase">
 
                                       <div class="showcase-banner">
-                                        <img src="./assets/images/products/sports-2.jpg" alt="Trekking & Running Shoes - black" class="product-img default"
-                                          width="300">
-                                          <img src="./assets/images/products/sports-4.jpg" alt="Trekking & Running Shoes - black" class="product-img hover"
-                                            width="300">
+                                        <img src="assets/products/sports-2.jpg" alt="Trekking & Running Shoes - black" class="product-img default"
+                                          width="300"/>
+                                          <img src="assets/products/sports-4.jpg" alt="Trekking & Running Shoes - black" class="product-img hover"
+                                            width="300"/>
 
                                             <p class="showcase-badge angle black">sale</p>
 
@@ -2775,10 +2780,10 @@ function App() {
                                           </div>
 
                                           <div class="showcase-content">
-                                            <a href="#" class="showcase-category">sports</a>
+                                            <a href="/" class="showcase-category">sports</a>
 
                                             <h3>
-                                              <a href="#" class="showcase-title">Trekking & Running Shoes - black</a>
+                                              <a href="/" class="showcase-title">Trekking & Running Shoes - black</a>
                                             </h3>
 
                                             <div class="showcase-rating">
@@ -2801,10 +2806,10 @@ function App() {
                                       <div class="showcase">
 
                                         <div class="showcase-banner">
-                                          <img src="./assets/images/products/shoe-1.jpg" alt="Men's Leather Formal Wear shoes" class="product-img default"
-                                            width="300">
-                                            <img src="./assets/images/products/shoe-1_1.jpg" alt="Men's Leather Formal Wear shoes" class="product-img hover"
-                                              width="300">
+                                          <img src="assets/products/shoe-1.jpg" alt="Men's Leather Formal Wear shoes" class="product-img default"
+                                            width="300"/>
+                                            <img src="assets/products/shoe-1_1.jpg" alt="Men's Leather Formal Wear shoes" class="product-img hover"
+                                              width="300"/>
 
                                               <div class="showcase-actions">
                                                 <button class="btn-action">
@@ -2826,10 +2831,10 @@ function App() {
                                             </div>
 
                                             <div class="showcase-content">
-                                              <a href="#" class="showcase-category">formal</a>
+                                              <a href="/" class="showcase-category">formal</a>
 
                                               <h3>
-                                                <a href="#" class="showcase-title">Men's Leather Formal Wear shoes</a>
+                                                <a href="/" class="showcase-title">Men's Leather Formal Wear shoes</a>
                                               </h3>
 
                                               <div class="showcase-rating">
@@ -2852,10 +2857,10 @@ function App() {
                                         <div class="showcase">
 
                                           <div class="showcase-banner">
-                                            <img src="./assets/images/products/shorts-1.jpg" alt="Better Basics French Terry Sweatshorts"
-                                              class="product-img default" width="300">
-                                              <img src="./assets/images/products/shorts-2.jpg" alt="Better Basics French Terry Sweatshorts"
-                                                class="product-img hover" width="300">
+                                            <img src="assets/products/shorts-1.jpg" alt="Better Basics French Terry Sweatshorts"
+                                              class="product-img default" width="300"/>
+                                              <img src="assets/products/shorts-2.jpg" alt="Better Basics French Terry Sweatshorts"
+                                                class="product-img hover" width="300"/>
 
                                                 <p class="showcase-badge angle black">sale</p>
 
@@ -2879,10 +2884,10 @@ function App() {
                                               </div>
 
                                               <div class="showcase-content">
-                                                <a href="#" class="showcase-category">shorts</a>
+                                                <a href="/" class="showcase-category">shorts</a>
 
                                                 <h3>
-                                                  <a href="#" class="showcase-title">Better Basics French Terry Sweatshorts</a>
+                                                  <a href="/" class="showcase-title">Better Basics French Terry Sweatshorts</a>
                                                 </h3>
 
                                                 <div class="showcase-rating">
@@ -2922,13 +2927,13 @@ function App() {
 
                                         <div class="testimonial-card">
 
-                                          <img src="./assets/images/testimonial-1.jpg" alt="alan doe" class="testimonial-banner" width="80" height="80">
+                                          <img src="assets/testimonial-1.jpg" alt="alan doe" class="testimonial-banner" width="80" height="80"/>
 
                                             <p class="testimonial-name">Alan Doe</p>
 
                                             <p class="testimonial-title">CEO & Founder Invision</p>
 
-                                            <img src="./assets/images/icons/quotes.svg" alt="quotation" class="quotation-img" width="26">
+                                            <img src="assets/icons/quotes.svg" alt="quotation" class="quotation-img" width="26"/>
 
                                               <p class="testimonial-desc">
                                                 Lorem ipsum dolor sit amet consectetur Lorem ipsum
@@ -2941,9 +2946,9 @@ function App() {
 
                                         <div class="cta-container">
 
-                                          <img src="./assets/images/cta-banner.jpg" alt="summer collection" class="cta-banner">
+                                          <img src="assets/cta-banner.jpg" alt="summer collection" class="cta-banner"/>
 
-                                            <a href="#" class="cta-content">
+                                            <a href="/" class="cta-content">
 
                                               <p class="discount">25% Discount</p>
 
@@ -2962,7 +2967,7 @@ function App() {
 
                                           <div class="service-container">
 
-                                            <a href="#" class="service-item">
+                                            <a href="/" class="service-item">
 
                                               <div class="service-icon">
                                                 <ion-icon name="boat-outline"></ion-icon>
@@ -2977,7 +2982,7 @@ function App() {
 
                                             </a>
 
-                                            <a href="#" class="service-item">
+                                            <a href="/" class="service-item">
 
                                               <div class="service-icon">
                                                 <ion-icon name="rocket-outline"></ion-icon>
@@ -2992,7 +2997,7 @@ function App() {
 
                                             </a>
 
-                                            <a href="#" class="service-item">
+                                            <a href="/" class="service-item">
 
                                               <div class="service-icon">
                                                 <ion-icon name="call-outline"></ion-icon>
@@ -3007,7 +3012,7 @@ function App() {
 
                                             </a>
 
-                                            <a href="#" class="service-item">
+                                            <a href="/" class="service-item">
 
                                               <div class="service-icon">
                                                 <ion-icon name="arrow-undo-outline"></ion-icon>
@@ -3022,7 +3027,7 @@ function App() {
 
                                             </a>
 
-                                            <a href="#" class="service-item">
+                                            <a href="/" class="service-item">
 
                                               <div class="service-icon">
                                                 <ion-icon name="ticket-outline"></ion-icon>
@@ -3055,15 +3060,15 @@ function App() {
 
                                         <div class="blog-card">
 
-                                          <a href="#">
-                                            <img src="./assets/images/blog-1.jpg" alt="Clothes Retail KPIs 2021 Guide for Clothes Executives" width="300" class="blog-banner">
+                                          <a href="/">
+                                            <img src="assets/blog-1.jpg" alt="Clothes Retail KPIs 2021 Guide for Clothes Executives" width="300" class="blog-banner"/>
                                           </a>
 
                                           <div class="blog-content">
 
-                                            <a href="#" class="blog-category">Fashion</a>
+                                            <a href="/" class="blog-category">Fashion</a>
 
-                                            <a href="#">
+                                            <a href="/">
                                               <h3 class="blog-title">Clothes Retail KPIs 2021 Guide for Clothes Executives.</h3>
                                             </a>
 
@@ -3077,17 +3082,17 @@ function App() {
 
                                         <div class="blog-card">
 
-                                          <a href="#">
-                                            <img src="./assets/images/blog-2.jpg" alt="Curbside fashion Trends: How to Win the Pickup Battle."
-                                              class="blog-banner" width="300">
+                                          <a href="/">
+                                            <img src="assets/blog-2.jpg" alt="Curbside fashion Trends: How to Win the Pickup Battle."
+                                              class="blog-banner" width="300"/>
                                           </a>
 
                                           <div class="blog-content">
 
-                                            <a href="#" class="blog-category">Clothes</a>
+                                            <a href="/" class="blog-category">Clothes</a>
 
                                             <h3>
-                                              <a href="#" class="blog-title">Curbside fashion Trends: How to Win the Pickup Battle.</a>
+                                              <a href="/" class="blog-title">Curbside fashion Trends: How to Win the Pickup Battle.</a>
                                             </h3>
 
                                             <p class="blog-meta">
@@ -3100,17 +3105,17 @@ function App() {
 
                                         <div class="blog-card">
 
-                                          <a href="#">
-                                            <img src="./assets/images/blog-3.jpg" alt="EBT vendors: Claim Your Share of SNAP Online Revenue."
-                                              class="blog-banner" width="300">
+                                          <a href="/">
+                                            <img src="assets/blog-3.jpg" alt="EBT vendors: Claim Your Share of SNAP Online Revenue."
+                                              class="blog-banner" width="300"/>
                                           </a>
 
                                           <div class="blog-content">
 
-                                            <a href="#" class="blog-category">Shoes</a>
+                                            <a href="/" class="blog-category">Shoes</a>
 
                                             <h3>
-                                              <a href="#" class="blog-title">EBT vendors: Claim Your Share of SNAP Online Revenue.</a>
+                                              <a href="/" class="blog-title">EBT vendors: Claim Your Share of SNAP Online Revenue.</a>
                                             </h3>
 
                                             <p class="blog-meta">
@@ -3123,17 +3128,17 @@ function App() {
 
                                         <div class="blog-card">
 
-                                          <a href="#">
-                                            <img src="./assets/images/blog-4.jpg" alt="Curbside fashion Trends: How to Win the Pickup Battle."
-                                              class="blog-banner" width="300">
+                                          <a href="/">
+                                            <img src="assets/blog-4.jpg" alt="Curbside fashion Trends: How to Win the Pickup Battle."
+                                              class="blog-banner" width="300"/>
                                           </a>
 
                                           <div class="blog-content">
 
-                                            <a href="#" class="blog-category">Electronics</a>
+                                            <a href="/" class="blog-category">Electronics</a>
 
                                             <h3>
-                                              <a href="#" class="blog-title">Curbside fashion Trends: How to Win the Pickup Battle.</a>
+                                              <a href="/" class="blog-title">Curbside fashion Trends: How to Win the Pickup Battle.</a>
                                             </h3>
 
                                             <p class="blog-meta">
@@ -3164,66 +3169,66 @@ function App() {
 
                                         <h3 class="category-box-title">Fashion :</h3>
 
-                                        <a href="#" class="footer-category-link">T-shirt</a>
-                                        <a href="#" class="footer-category-link">Shirts</a>
-                                        <a href="#" class="footer-category-link">shorts & jeans</a>
-                                        <a href="#" class="footer-category-link">jacket</a>
-                                        <a href="#" class="footer-category-link">dress & frock</a>
-                                        <a href="#" class="footer-category-link">innerwear</a>
-                                        <a href="#" class="footer-category-link">hosiery</a>
+                                        <a href="/" class="footer-category-link">T-shirt</a>
+                                        <a href="/" class="footer-category-link">Shirts</a>
+                                        <a href="/" class="footer-category-link">shorts & jeans</a>
+                                        <a href="/" class="footer-category-link">jacket</a>
+                                        <a href="/" class="footer-category-link">dress & frock</a>
+                                        <a href="/" class="footer-category-link">innerwear</a>
+                                        <a href="/" class="footer-category-link">hosiery</a>
 
                                       </div>
 
                                       <div class="footer-category-box">
                                         <h3 class="category-box-title">footwear :</h3>
 
-                                        <a href="#" class="footer-category-link">sport</a>
-                                        <a href="#" class="footer-category-link">formal</a>
-                                        <a href="#" class="footer-category-link">Boots</a>
-                                        <a href="#" class="footer-category-link">casual</a>
-                                        <a href="#" class="footer-category-link">cowboy shoes</a>
-                                        <a href="#" class="footer-category-link">safety shoes</a>
-                                        <a href="#" class="footer-category-link">Party wear shoes</a>
-                                        <a href="#" class="footer-category-link">Branded</a>
-                                        <a href="#" class="footer-category-link">Firstcopy</a>
-                                        <a href="#" class="footer-category-link">Long shoes</a>
+                                        <a href="/" class="footer-category-link">sport</a>
+                                        <a href="/" class="footer-category-link">formal</a>
+                                        <a href="/" class="footer-category-link">Boots</a>
+                                        <a href="/" class="footer-category-link">casual</a>
+                                        <a href="/" class="footer-category-link">cowboy shoes</a>
+                                        <a href="/" class="footer-category-link">safety shoes</a>
+                                        <a href="/" class="footer-category-link">Party wear shoes</a>
+                                        <a href="/" class="footer-category-link">Branded</a>
+                                        <a href="/" class="footer-category-link">Firstcopy</a>
+                                        <a href="/" class="footer-category-link">Long shoes</a>
                                       </div>
 
                                       <div class="footer-category-box">
                                         <h3 class="category-box-title">jewellery :</h3>
 
-                                        <a href="#" class="footer-category-link">Necklace</a>
-                                        <a href="#" class="footer-category-link">Earrings</a>
-                                        <a href="#" class="footer-category-link">Couple rings</a>
-                                        <a href="#" class="footer-category-link">Pendants</a>
-                                        <a href="#" class="footer-category-link">Crystal</a>
-                                        <a href="#" class="footer-category-link">Bangles</a>
-                                        <a href="#" class="footer-category-link">bracelets</a>
-                                        <a href="#" class="footer-category-link">nosepin</a>
-                                        <a href="#" class="footer-category-link">chain</a>
-                                        <a href="#" class="footer-category-link">Earrings</a>
-                                        <a href="#" class="footer-category-link">Couple rings</a>
+                                        <a href="/" class="footer-category-link">Necklace</a>
+                                        <a href="/" class="footer-category-link">Earrings</a>
+                                        <a href="/" class="footer-category-link">Couple rings</a>
+                                        <a href="/" class="footer-category-link">Pendants</a>
+                                        <a href="/" class="footer-category-link">Crystal</a>
+                                        <a href="/" class="footer-category-link">Bangles</a>
+                                        <a href="/" class="footer-category-link">bracelets</a>
+                                        <a href="/" class="footer-category-link">nosepin</a>
+                                        <a href="/" class="footer-category-link">chain</a>
+                                        <a href="/" class="footer-category-link">Earrings</a>
+                                        <a href="/" class="footer-category-link">Couple rings</a>
                                       </div>
 
                                       <div class="footer-category-box">
                                         <h3 class="category-box-title">cosmetics :</h3>
 
-                                        <a href="#" class="footer-category-link">Shampoo</a>
-                                        <a href="#" class="footer-category-link">Bodywash</a>
-                                        <a href="#" class="footer-category-link">Facewash</a>
-                                        <a href="#" class="footer-category-link">makeup kit</a>
-                                        <a href="#" class="footer-category-link">liner</a>
-                                        <a href="#" class="footer-category-link">lipstick</a>
-                                        <a href="#" class="footer-category-link">prefume</a>
-                                        <a href="#" class="footer-category-link">Body soap</a>
-                                        <a href="#" class="footer-category-link">scrub</a>
-                                        <a href="#" class="footer-category-link">hair gel</a>
-                                        <a href="#" class="footer-category-link">hair colors</a>
-                                        <a href="#" class="footer-category-link">hair dye</a>
-                                        <a href="#" class="footer-category-link">sunscreen</a>
-                                        <a href="#" class="footer-category-link">skin loson</a>
-                                        <a href="#" class="footer-category-link">liner</a>
-                                        <a href="#" class="footer-category-link">lipstick</a>
+                                        <a href="/" class="footer-category-link">Shampoo</a>
+                                        <a href="/" class="footer-category-link">Bodywash</a>
+                                        <a href="/" class="footer-category-link">Facewash</a>
+                                        <a href="/" class="footer-category-link">makeup kit</a>
+                                        <a href="/" class="footer-category-link">liner</a>
+                                        <a href="/" class="footer-category-link">lipstick</a>
+                                        <a href="/" class="footer-category-link">prefume</a>
+                                        <a href="/" class="footer-category-link">Body soap</a>
+                                        <a href="/" class="footer-category-link">scrub</a>
+                                        <a href="/" class="footer-category-link">hair gel</a>
+                                        <a href="/" class="footer-category-link">hair colors</a>
+                                        <a href="/" class="footer-category-link">hair dye</a>
+                                        <a href="/" class="footer-category-link">sunscreen</a>
+                                        <a href="/" class="footer-category-link">skin loson</a>
+                                        <a href="/" class="footer-category-link">liner</a>
+                                        <a href="/" class="footer-category-link">lipstick</a>
                                       </div>
 
                                     </div>
@@ -3241,23 +3246,23 @@ function App() {
                                         </li>
 
                                         <li class="footer-nav-item">
-                                          <a href="#" class="footer-nav-link">Fashion</a>
+                                          <a href="/" class="footer-nav-link">Fashion</a>
                                         </li>
 
                                         <li class="footer-nav-item">
-                                          <a href="#" class="footer-nav-link">Electronic</a>
+                                          <a href="/" class="footer-nav-link">Electronic</a>
                                         </li>
 
                                         <li class="footer-nav-item">
-                                          <a href="#" class="footer-nav-link">Cosmetic</a>
+                                          <a href="/" class="footer-nav-link">Cosmetic</a>
                                         </li>
 
                                         <li class="footer-nav-item">
-                                          <a href="#" class="footer-nav-link">Health</a>
+                                          <a href="/" class="footer-nav-link">Health</a>
                                         </li>
 
                                         <li class="footer-nav-item">
-                                          <a href="#" class="footer-nav-link">Watches</a>
+                                          <a href="/" class="footer-nav-link">Watches</a>
                                         </li>
 
                                       </ul>
@@ -3269,23 +3274,23 @@ function App() {
                                         </li>
 
                                         <li class="footer-nav-item">
-                                          <a href="#" class="footer-nav-link">Prices drop</a>
+                                          <a href="/" class="footer-nav-link">Prices drop</a>
                                         </li>
 
                                         <li class="footer-nav-item">
-                                          <a href="#" class="footer-nav-link">New products</a>
+                                          <a href="/" class="footer-nav-link">New products</a>
                                         </li>
 
                                         <li class="footer-nav-item">
-                                          <a href="#" class="footer-nav-link">Best sales</a>
+                                          <a href="/" class="footer-nav-link">Best sales</a>
                                         </li>
 
                                         <li class="footer-nav-item">
-                                          <a href="#" class="footer-nav-link">Contact us</a>
+                                          <a href="/" class="footer-nav-link">Contact us</a>
                                         </li>
 
                                         <li class="footer-nav-item">
-                                          <a href="#" class="footer-nav-link">Sitemap</a>
+                                          <a href="/" class="footer-nav-link">Sitemap</a>
                                         </li>
 
                                       </ul>
@@ -3297,23 +3302,23 @@ function App() {
                                         </li>
 
                                         <li class="footer-nav-item">
-                                          <a href="#" class="footer-nav-link">Delivery</a>
+                                          <a href="/" class="footer-nav-link">Delivery</a>
                                         </li>
 
                                         <li class="footer-nav-item">
-                                          <a href="#" class="footer-nav-link">Legal Notice</a>
+                                          <a href="/" class="footer-nav-link">Legal Notice</a>
                                         </li>
 
                                         <li class="footer-nav-item">
-                                          <a href="#" class="footer-nav-link">Terms and conditions</a>
+                                          <a href="/" class="footer-nav-link">Terms and conditions</a>
                                         </li>
 
                                         <li class="footer-nav-item">
-                                          <a href="#" class="footer-nav-link">About us</a>
+                                          <a href="/" class="footer-nav-link">About us</a>
                                         </li>
 
                                         <li class="footer-nav-item">
-                                          <a href="#" class="footer-nav-link">Secure payment</a>
+                                          <a href="/" class="footer-nav-link">Secure payment</a>
                                         </li>
 
                                       </ul>
@@ -3325,23 +3330,23 @@ function App() {
                                         </li>
 
                                         <li class="footer-nav-item">
-                                          <a href="#" class="footer-nav-link">Prices drop</a>
+                                          <a href="/" class="footer-nav-link">Prices drop</a>
                                         </li>
 
                                         <li class="footer-nav-item">
-                                          <a href="#" class="footer-nav-link">New products</a>
+                                          <a href="/" class="footer-nav-link">New products</a>
                                         </li>
 
                                         <li class="footer-nav-item">
-                                          <a href="#" class="footer-nav-link">Best sales</a>
+                                          <a href="/" class="footer-nav-link">Best sales</a>
                                         </li>
 
                                         <li class="footer-nav-item">
-                                          <a href="#" class="footer-nav-link">Contact us</a>
+                                          <a href="/" class="footer-nav-link">Contact us</a>
                                         </li>
 
                                         <li class="footer-nav-item">
-                                          <a href="#" class="footer-nav-link">Sitemap</a>
+                                          <a href="/" class="footer-nav-link">Sitemap</a>
                                         </li>
 
                                       </ul>
@@ -3391,25 +3396,25 @@ function App() {
                                           <ul class="social-link">
 
                                             <li class="footer-nav-item">
-                                              <a href="#" class="footer-nav-link">
+                                              <a href="/" class="footer-nav-link">
                                                 <ion-icon name="logo-facebook"></ion-icon>
                                               </a>
                                             </li>
 
                                             <li class="footer-nav-item">
-                                              <a href="#" class="footer-nav-link">
+                                              <a href="/" class="footer-nav-link">
                                                 <ion-icon name="logo-twitter"></ion-icon>
                                               </a>
                                             </li>
 
                                             <li class="footer-nav-item">
-                                              <a href="#" class="footer-nav-link">
+                                              <a href="/" class="footer-nav-link">
                                                 <ion-icon name="logo-linkedin"></ion-icon>
                                               </a>
                                             </li>
 
                                             <li class="footer-nav-item">
-                                              <a href="#" class="footer-nav-link">
+                                              <a href="/" class="footer-nav-link">
                                                 <ion-icon name="logo-instagram"></ion-icon>
                                               </a>
                                             </li>
@@ -3427,10 +3432,10 @@ function App() {
 
                                     <div class="container">
 
-                                      <img src="./assets/images/payment.png" alt="payment method" class="payment-img">
+                                      <img src="assets/payment.png" alt="payment method" class="payment-img"/>
 
                                         <p class="copyright">
-                                          Copyright &copy; <a href="#">Anon</a> all rights reserved.
+                                          Copyright &copy; <a href="/">Anon</a> all rights reserved.
                                         </p>
 
                                     </div>
