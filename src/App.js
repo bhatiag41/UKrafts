@@ -223,7 +223,7 @@ function App() {
                     <li class="panel-list-item">
                       <a href="#">
                         <img src="./assets/images/electronics-banner-1.jpg" alt="headphone collection" width="250"
-                          height="119">
+                          height="119"/>
                       </a>
                     </li>
 
@@ -1775,11 +1775,9 @@ function App() {
                           </div>
 
                         </div>
-
                       </div>
 
                     </div>
-
                     <div class="showcase-container">
 
                       <div class="showcase">
@@ -2270,9 +2268,6 @@ function App() {
                 </div>
 
               </div>
-
-
-
               <div class="product-main">
 
                 <h2 class="title">New Products</h2>
