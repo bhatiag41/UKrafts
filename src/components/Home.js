@@ -119,9 +119,9 @@ export default function Home() {
           <div class="container">
             <a href="/" class="header-logo">
               <img
-                src="assets/logo/logo.svg"
+                src="assets/logo/UKRAFTS.png"
                 alt="Anon's logo"
-                width="120"
+                width="150"
                 height="36"
               />
             </a>
