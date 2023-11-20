@@ -343,7 +343,8 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   right: 20px;
   background: var(--white);
   max-width: 300px;
-  display: flex;
+  /* display: flex; */
+  display: none;
   align-items: flex-start;
   gap: 15px;
   padding: 15px;

@@ -3,7 +3,7 @@ import './ProductDetails.css';
 import Colors from './Colors'
 import DetailsThumb from './DetailsThumb';
 
-class Deets extends React.Component{
+class ProductDetails extends React.Component{
 
   state = {
     products: [
