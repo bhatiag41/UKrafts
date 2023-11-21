@@ -15,7 +15,6 @@ class ProductDetails extends React.Component{
 
           ],
         "description": "Maa lakshmi aipan typically crafted on cloth by hand , cloth material cotton",
-        "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
         "price": 250,
         "colors":["red","white","crimson","aliceblue"],
         "count": 1
@@ -55,7 +54,7 @@ class ProductDetails extends React.Component{
               <div className="box">
                 <div className="row">
                   <h2>{item.title}</h2>
-                  <span>${item.price}</span>
+                  <span>₹{item.price}</span>
                 </div>
                 <Colors colors={item.colors} />
 

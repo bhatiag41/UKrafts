@@ -237,113 +237,23 @@ export default function Home() {
                   </ul>
 
                   
-                  {/* // <ul class="dropdown-panel-list">
-                  //   <li class="menu-title">
-                  //     <a href="/">Men's</a>
-                  //   </li>
-
-                  //   <li class="panel-list-item">
-                  //     <a href="/">Formal</a>
-                  //   </li>
-
-                  //   <li class="panel-list-item">
-                  //     <a href="/">Casual</a>
-                  //   </li>
-
-                  //   <li class="panel-list-item">
-                  //     <a href="/">Sports</a>
-                  //   </li>
-
-                  //   <li class="panel-list-item">
-                  //     <a href="/">Jacket</a>
-                  //   </li>
-
-                  //   <li class="panel-list-item">
-                  //     <a href="/">Sunglasses</a>
-                  //   </li>
-
-                  //   <li class="panel-list-item">
-                  //     <a href="/">
-                  //       <img
-                  //         src="assets/mens-banner.jpg"
-                  //         alt="men's fashion"
-                  //         width="250"
-                  //         height="119"
-                  //       />
-                  //     </a>
-                  //   </li>
-                  // </ul>
-
-                  // <ul class="dropdown-panel-list">
-                  //   <li class="menu-title">
-                  //     <a href="/">Women's</a>
-                  //   </li>
-
-                  //   <li class="panel-list-item">
-                  //     <a href="/">Formal</a>
-                  //   </li>
-
-                  //   <li class="panel-list-item">
-                  //     <a href="/">Casual</a>
-                  //   </li>
-
-                  //   <li class="panel-list-item">
-                  //     <a href="/">Perfume</a>
-                  //   </li>
-
-                  //   <li class="panel-list-item">
-                  //     <a href="/">Cosmetics</a>
-                  //   </li>
-
-                  //   <li class="panel-list-item">
-                  //     <a href="/">Bags</a>
-                  //   </li>
-
-                  //   <li class="panel-list-item">
-                  //     <a href="/">
-                  //       <img
-                  //         src="assets/womens-banner.jpg"
-                  //         alt="women's fashion"
-                  //         width="250"
-                  //         height="119"
-                  //       />
-                  //     </a>
-                  //   </li>
-                  // </ul>}
-                   */}
+                
                 </div>
               </li>
 
               <li class="menu-category">
                 <a href="/" class="menu-title">
-                  Men's
+                  Gift Items
                 </a>
 
-                <ul class="dropdown-list">
-                  <li class="dropdown-item">
-                    <a href="/">Shirt</a>
-                  </li>
-
-                  <li class="dropdown-item">
-                    <a href="/">Shorts & Jeans</a>
-                  </li>
-
-                  <li class="dropdown-item">
-                    <a href="/">Safety Shoes</a>
-                  </li>
-
-                  <li class="dropdown-item">
-                    <a href="/">Wallet</a>
-                  </li>
-                </ul>
               </li>
 
               <li class="menu-category">
                 <a href="/" class="menu-title">
-                  Women's
+                  Home Decor
                 </a>
 
-                <ul class="dropdown-list">
+                {/* <ul class="dropdown-list">
                   <li class="dropdown-item">
                     <a href="/">Dress & Frock</a>
                   </li>
@@ -359,7 +269,7 @@ export default function Home() {
                   <li class="dropdown-item">
                     <a href="/">Makeup Kit</a>
                   </li>
-                </ul>
+                </ul> */}
               </li>
 
               <li class="menu-category">
@@ -388,7 +298,7 @@ export default function Home() {
 
               <li class="menu-category">
                 <a href="/" class="menu-title">
-                  Perfume
+                 Pooja Items
                 </a>
 
                 <ul class="dropdown-list">
@@ -412,13 +322,13 @@ export default function Home() {
 
               <li class="menu-category">
                 <a href="/" class="menu-title">
-                  Blog
+                  Clothing
                 </a>
               </li>
 
               <li class="menu-category">
                 <a href="/" class="menu-title">
-                  Hot Offers
+                  Car and Bike Decor
                 </a>
               </li>
             </ul>
@@ -775,27 +685,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div class="slider-item">
-                <img
-                  src="assets/banner-3.jpg"
-                  alt="new fashion summer sale"
-                  class="banner-img"
-                />
-
-                <div class="banner-content">
-                  <p class="banner-subtitle">Sale Offer</p>
-
-                  <h2 class="banner-title">New fashion summer sale</h2>
-
-                  <p class="banner-text">
-                    starting at &dollar; <b>29</b>.99
-                  </p>
-
-                  <a href="/" class="banner-btn">
-                    Shop now
-                  </a>
-                </div>
-              </div>
+            
             </div>
           </div>
         </div>
@@ -977,7 +867,7 @@ export default function Home() {
             <div class="sidebar  has-scrollbar" data-mobile-menu>
               <div class="sidebar-category">
                 <div class="sidebar-top">
-                  <h2 class="sidebar-title">Category</h2>
+                  <h2 class="sidebar-title">Categoriess</h2>
 
                   <button class="sidebar-close-btn" data-mobile-menu-close-btn>
                     <ion-icon name="close-outline"></ion-icon>
@@ -996,7 +886,7 @@ export default function Home() {
                           class="menu-title-img"
                         />
 
-                        <p class="menu-title">Clothes</p>
+                        <p class="menu-title">Gift Items</p>
                       </div>
                     </button>
 
@@ -1066,7 +956,7 @@ export default function Home() {
                           height="20"
                         />
 
-                        <p class="menu-title">Footwear</p>
+                        <p class="menu-title">Home Decor</p>
                       </div>
                     </button>
 
@@ -1193,7 +1083,7 @@ export default function Home() {
                           height="20"
                         />
 
-                        <p class="menu-title">Perfume</p>
+                        <p class="menu-title">Pooja Items</p>
                       </div>
                     </button>
 
@@ -1263,7 +1153,7 @@ export default function Home() {
                           height="20"
                         />
 
-                        <p class="menu-title">Cosmetics</p>
+                        <p class="menu-title">Clothing</p>
                       </div>
                     </button>
 
@@ -1333,7 +1223,7 @@ export default function Home() {
                           height="20"
                         />
 
-                        <p class="menu-title">Glasses</p>
+                        <p class="menu-title">Car and Bike Decor</p>
                       </div>
                     </button>
 
@@ -1369,15 +1259,7 @@ export default function Home() {
                   <li class="sidebar-menu-category">
                     <button class="sidebar-accordion-menu" data-accordion-btn>
                       <div class="menu-title-flex">
-                        <img
-                          src="assets/icons/bag.svg"
-                          alt="bags"
-                          class="menu-title-img"
-                          width="20"
-                          height="20"
-                        />
 
-                        <p class="menu-title">Bags</p>
                       </div>
                     </button>
 
@@ -1991,14 +1873,14 @@ export default function Home() {
                         </div>
 
                         <div class="showcase-content">
-                          <a href="/" class="showcase-category">
+                          <Link to="/ProductDetails" class="showcase-category">
                             {product.title}
-                          </a>
+                          </Link>
 
                           <h3>
-                            <a href="/" class="showcase-title">
+                            <Link to="/ProductDetails" class="showcase-title">
                               {product.description}
-                            </a>
+                            </Link>
                           </h3>
 
                           <div class="showcase-rating">
