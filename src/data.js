@@ -22,13 +22,13 @@ export default [
           title:"Ranikhet woolens:Handspun",
           price: 999,
           description:"Hand Woven Traditional Handloom Wool Muffler For Unisex.",
-          img:"assets/Handloom.jpeg.jpg"
+          img:"assets/Handloom.jpg"
       },
       {
           title:"Kumaoni pottery",
           price: 5000,
           description:"Vintage kumaoni Pottery  Pot  Folk Art, north Decor",
-          img:"assets/Pottery.jpeg.jpg"
+          img:"assets/Pottery.jpg"
       },
       {
           title:"Garhwali Jewellery",
@@ -41,7 +41,7 @@ export default [
          title: "Cushion",
          price: 659,
          description: "Aipan printed  Cushion Covers , set of 4 16 * 16 inches",
-         img:""
+         img:"Cushion.jpg"
    
       },
       {
