@@ -751,10 +751,10 @@ export default function Home() {
                 <div class="banner-content">
                   <p class="banner-subtitle">Trending item</p>
 
-                  <h2 class="banner-title">Women's latest fashion sale</h2>
+                  <h2 class="banner-title">Handmade Basket</h2>
 
                   <p class="banner-text">
-                    starting at &dollar; <b>20</b>.00
+                    starting at ₹ <b>200</b>.00
                   </p>
 
                   <a href="/" class="banner-btn">
@@ -773,10 +773,10 @@ export default function Home() {
                 <div class="banner-content">
                   <p class="banner-subtitle">Trending accessories</p>
 
-                  <h2 class="banner-title">Modern sunglasses</h2>
+                  <h2 class="banner-title">Garhwali Jewellery</h2>
 
                   <p class="banner-text">
-                    starting at &dollar; <b>15</b>.00
+                    starting at ₹<b>150</b>.00
                   </p>
 
                   <a href="/" class="banner-btn">
@@ -1448,7 +1448,7 @@ export default function Home() {
                 </ul>
               </div>
 
-              <div class="product-showcase">
+              {/* <div class="product-showcase">
                 <h3 class="showcase-heading">best sellers</h3>
 
                 <div class="showcase-wrapper">
@@ -1575,7 +1575,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div class="product-box">
@@ -1797,8 +1797,8 @@ export default function Home() {
                     <div class="showcase">
                       <div class="showcase-banner">
                         <img
-                          src="assets/products/shampoo.jpg"
-                          alt="shampoo, conditioner & facewash packs"
+                          src="assets/cushion.jpg"
+                          alt="ss"
                           class="showcase-img"
                         />
                       </div>
@@ -1814,19 +1814,17 @@ export default function Home() {
 
                         <a href="/">
                           <h3 class="showcase-title">
-                            shampoo, conditioner & facewash packs
+                            Cushion with Aipan Design
                           </h3>
                         </a>
 
                         <p class="showcase-desc">
-                          Lorem ipsum dolor sit amet consectetur Lorem ipsum
-                          dolor dolor sit amet consectetur Lorem ipsum dolor
                         </p>
 
                         <div class="price-box">
-                          <p class="price">$150.00</p>
+                          <p class="price">₹350.00</p>
 
-                          <del>$200.00</del>
+                          <del>₹500.00</del>
                         </div>
 
                         <button class="add-cart-btn">add to cart</button>
@@ -1850,7 +1848,7 @@ export default function Home() {
 
                           <div class="countdown">
                             <div class="countdown-content">
-                              <p class="display-number">360</p>
+                              <p class="display-number">0</p>
 
                               <p class="display-text">Days</p>
                             </div>
@@ -1971,7 +1969,7 @@ export default function Home() {
                             src={product.img}
                             alt={product.title}
                             class="product-img default"
-                            width="300"
+                            height="300"
                           />
                           <img
                             src="assets/products/shoe-2_1.jpg"
