@@ -54,6 +54,6 @@ export default [
          title:"Traditional Choki",
          price: 599,
          description:"Aipan Art Wooden Pooja Chowki,17x 17 inches,wooden chauki",
-         img: "traditional choki.jpeg"
+         img: "traditional choki.jpeg.jpg"
       }
   ]
