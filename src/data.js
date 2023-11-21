@@ -22,7 +22,7 @@ export default [
           title:"Ranikhet woolens:Handspun",
           price: 999,
           description:"Hand Woven Traditional Handloom Wool Muffler For Unisex.",
-          img:"assets/Handloom.jpeg.jpg"
+          img:"assets/Handloom.jpg"
       },
       {
           title:"Kumaoni pottery",
