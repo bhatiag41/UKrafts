@@ -213,77 +213,141 @@ export default function Home() {
 
                   <ul class="dropdown-panel-list">
                     <li class="menu-title">
-                      <a href="/">Men's</a>
+                      <a href="/">Aipan</a>
                     </li>
 
-                    <li class="panel-list-item">
-                      <a href="/">Formal</a>
-                    </li>
-
-                    <li class="panel-list-item">
-                      <a href="/">Casual</a>
-                    </li>
-
-                    <li class="panel-list-item">
-                      <a href="/">Sports</a>
-                    </li>
-
-                    <li class="panel-list-item">
-                      <a href="/">Jacket</a>
-                    </li>
-
-                    <li class="panel-list-item">
-                      <a href="/">Sunglasses</a>
-                    </li>
-
-                    <li class="panel-list-item">
-                      <a href="/">
-                        <img
-                          src="assets/mens-banner.jpg"
-                          alt="men's fashion"
-                          width="250"
-                          height="119"
-                        />
-                      </a>
-                    </li>
-                  </ul>
-
-                  <ul class="dropdown-panel-list">
                     <li class="menu-title">
-                      <a href="/">Women's</a>
+                      <a href="/">Pahadi topi</a>
                     </li>
 
-                    <li class="panel-list-item">
-                      <a href="/">Formal</a>
+                    <li class="menu-title">
+                      <a href="/">Pichora</a>
                     </li>
 
-                    <li class="panel-list-item">
-                      <a href="/">Casual</a>
+                    <li class="menu-title">
+                       <a href="/">Ranikhet woolens: Handspun</a>
                     </li>
 
-                    <li class="panel-list-item">
-                      <a href="/">Perfume</a>
+                    <li class="menu-title">
+                      <a href="/">Kumaoni Pottery</a>
                     </li>
 
-                    <li class="panel-list-item">
-                      <a href="/">Cosmetics</a>
+                    <li class="menu-title">
+                      <a href="/">Garhwali Jewellery</a>
                     </li>
 
-                    <li class="panel-list-item">
-                      <a href="/">Bags</a>
+                    <li class="menu-title">
+                      <a href="/">Pithoragarh Painting</a>
                     </li>
 
-                    <li class="panel-list-item">
-                      <a href="/">
-                        <img
-                          src="assets/womens-banner.jpg"
-                          alt="women's fashion"
-                          width="250"
-                          height="119"
-                        />
-                      </a>
+                    <li class="menu-title">
+                      <a href="/">Nainital Woodwork</a>
                     </li>
+
+                    <li class="menu-title">
+                      <a href="/">Paper Bags and Jute Bags</a>
+                    </li>
+
+                     <li class="menu-title">
+                       <a href="/">Pine Cone</a>
+                     </li>
+
+                     <li class="menu-title">
+                       <a href="/">Penstand</a>
+                     </li>
+
+                     <li class="menu-title">
+                       <a href="/">Pooja Aasan and Choki</a>
+                     </li>
+
+                     <li class="menu-title">
+                       <a href="/">Cushion Covers</a>
+                     </li>
+
+                     <li class="menu-title">
+                       <a href="/">Table cloth and Sofa Cover Set</a>
+                     </li>
+
+                     <li class="menu-title">
+                       <a href="/">Door Mat</a>
+                     </li>
                   </ul>
+
+                  
+                  // <ul class="dropdown-panel-list">
+                  //   <li class="menu-title">
+                  //     <a href="/">Men's</a>
+                  //   </li>
+
+                  //   <li class="panel-list-item">
+                  //     <a href="/">Formal</a>
+                  //   </li>
+
+                  //   <li class="panel-list-item">
+                  //     <a href="/">Casual</a>
+                  //   </li>
+
+                  //   <li class="panel-list-item">
+                  //     <a href="/">Sports</a>
+                  //   </li>
+
+                  //   <li class="panel-list-item">
+                  //     <a href="/">Jacket</a>
+                  //   </li>
+
+                  //   <li class="panel-list-item">
+                  //     <a href="/">Sunglasses</a>
+                  //   </li>
+
+                  //   <li class="panel-list-item">
+                  //     <a href="/">
+                  //       <img
+                  //         src="assets/mens-banner.jpg"
+                  //         alt="men's fashion"
+                  //         width="250"
+                  //         height="119"
+                  //       />
+                  //     </a>
+                  //   </li>
+                  // </ul>
+
+                  // <ul class="dropdown-panel-list">
+                  //   <li class="menu-title">
+                  //     <a href="/">Women's</a>
+                  //   </li>
+
+                  //   <li class="panel-list-item">
+                  //     <a href="/">Formal</a>
+                  //   </li>
+
+                  //   <li class="panel-list-item">
+                  //     <a href="/">Casual</a>
+                  //   </li>
+
+                  //   <li class="panel-list-item">
+                  //     <a href="/">Perfume</a>
+                  //   </li>
+
+                  //   <li class="panel-list-item">
+                  //     <a href="/">Cosmetics</a>
+                  //   </li>
+
+                  //   <li class="panel-list-item">
+                  //     <a href="/">Bags</a>
+                  //   </li>
+
+                  //   <li class="panel-list-item">
+                  //     <a href="/">
+                  //       <img
+                  //         src="assets/womens-banner.jpg"
+                  //         alt="women's fashion"
+                  //         width="250"
+                  //         height="119"
+                  //       />
+                  //     </a>
+                  //   </li>
+                  // </ul>
+                  
 
                   <ul class="dropdown-panel-list">
                     <li class="menu-title">
