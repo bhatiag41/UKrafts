@@ -3,7 +3,7 @@ export default [
           title:"Aipan",
           price:250,
           description:"Maa lakshmi aipan typically crafted on cloth by hand , cloth material cotton",
-          img:"assets/Aipan.jpeg.jpeg"
+          img:"assets/Aipan.jpeg.jpg"
       },
       
       {
