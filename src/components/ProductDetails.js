@@ -9,9 +9,9 @@ class ProductDetails extends React.Component{
     products: [
       {
         "_id": "1",
-        "title": "Nike Shoes",
+        "title": "Aipan",
         "src": [
-            "https://www.upsieutoc.com/images/2020/06/27/img1.jpg",
+            "../../public/assets/Aipan.jpeg.jpg",
             "https://www.upsieutoc.com/images/2020/06/27/img2.jpg",
             "https://www.upsieutoc.com/images/2020/06/27/img3.jpg",
             "https://www.upsieutoc.com/images/2020/06/27/img4.jpg"

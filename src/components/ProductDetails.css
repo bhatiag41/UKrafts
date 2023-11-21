@@ -5,6 +5,9 @@
     box-shadow: 0 0 5px #ccc;
     background: var(--white);
     color: var(--onyx);
+
+  }
+  html{
     font-family: "Poppins", sans-serif;
   }
   .details{
