@@ -41,7 +41,7 @@ export default [
          title: "Cushion",
          price: 659,
          description: "Aipan printed  Cushion Covers , set of 4 16 * 16 inches",
-         img:"Cushion.jpg"
+         img:"assets/Cushion.jpg"
    
       },
       {
