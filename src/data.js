@@ -28,7 +28,7 @@ export default [
           title:"Kumaoni pottery",
           price: 5000,
           description:"Vintage kumaoni Pottery  Pot  Folk Art, north Decor",
-          img:"assets/Pottery.jpeg.jpg"
+          img:"assets/Pottery.jpg"
       },
       {
           title:"Garhwali Jewellery",
