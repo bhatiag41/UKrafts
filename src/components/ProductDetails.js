@@ -11,15 +11,13 @@ class ProductDetails extends React.Component{
         "_id": "1",
         "title": "Aipan",
         "src": [
-            "../../public/assets/Aipan.jpeg.jpg",
-            "https://www.upsieutoc.com/images/2020/06/27/img2.jpg",
-            "https://www.upsieutoc.com/images/2020/06/27/img3.jpg",
-            "https://www.upsieutoc.com/images/2020/06/27/img4.jpg"
+            "assets/Aipan.jpeg.jpg"
+
           ],
-        "description": "UI/UX designing, html css tutorials",
+        "description": "Maa lakshmi aipan typically crafted on cloth by hand , cloth material cotton",
         "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
-        "price": 23,
-        "colors":["red","black","crimson","teal"],
+        "price": 250,
+        "colors":["red","white","crimson","aliceblue"],
         "count": 1
       }
     ],
