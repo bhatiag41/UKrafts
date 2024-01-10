@@ -1,0 +1,16 @@
+.compo{
+    display: flex;
+    align-items: baseline;
+}
+button{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(211, 211, 211);
+    margin: 10px;
+    border: 1px solid rgb(105, 105, 105);
+}
+span{
+    font-size: 50px;
+    margin: 10px;
+    margin-bottom: 0;
+}
