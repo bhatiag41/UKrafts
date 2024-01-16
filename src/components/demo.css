@@ -14,3 +14,26 @@ span{
     margin: 10px;
     margin-bottom: 0;
 }
+.parent{
+    display: flex;
+flex-direction:column;
+}
+.compo2{
+    display: flex;
+    align-items: baseline;
+}
+.content{
+    width: 50vw;
+    background-color: red;
+    word-wrap: break-word;
+}
+pre{
+    font-size: 20px;
+
+
+}
+#text{
+    word-break: break-all;
+    width: inherit;
+    word-wrap: break-word;
+}
